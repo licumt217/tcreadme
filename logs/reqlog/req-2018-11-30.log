@@ -1,0 +1,15 @@
+[2018-11-30T02:40:30.250] [INFO] default - zcq后台服务成功启动，访问地址为 http://127.0.0.1:8081
+[2018-11-30T02:42:30.539] [INFO] default - [127.0.0.1 GET / 200 11ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T02:42:30.775] [INFO] default - [127.0.0.1 GET /favicon.ico 404 2ms][http://127.0.0.1:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:15.522] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-30T09:11:28.529] [INFO] default - [127.0.0.1 GET / 304 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:29.686] [INFO] default - [127.0.0.1 GET / 304 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:30.112] [INFO] default - [127.0.0.1 GET / 304 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:30.458] [INFO] default - [127.0.0.1 GET / 304 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:30.763] [INFO] default - [127.0.0.1 GET / 304 0ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:37.876] [INFO] default - [127.0.0.1 GET /index 404 2ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:42.218] [INFO] default - [127.0.0.1 GET / 304 2ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:47.734] [INFO] default - [127.0.0.1 GET /user/list 404 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:11:57.042] [INFO] default - [127.0.0.1 GET /user/list 404 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-30T09:12:01.031] [INFO] default - 获取用户列表参数： { openId: 'oyaEAt50pCVmHcxNDJ8s43aZY7AU' }
+[2018-11-30T09:12:01.053] [INFO] default - [127.0.0.1 POST /user/list 200 58ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
