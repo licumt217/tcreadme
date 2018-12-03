@@ -13,6 +13,7 @@ const logger = log4js.getLogger() // 根据需要获取logger
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
 const uploadRouter = require('./routes/upload');
+const resourceRouter = require('./routes/resource');
 
 
 
@@ -33,6 +34,7 @@ multer({dest:'uploads/'});
 app.use(`/${projectName}`, indexRouter);
 app.use(`/${projectName}/user`, userRouter);
 app.use(`/${projectName}/upload`, uploadRouter);
+app.use(`/${projectName}/resource`, resourceRouter);
 
 
 
