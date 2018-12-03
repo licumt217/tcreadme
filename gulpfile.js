@@ -3,7 +3,7 @@ let gulp = require('gulp') //加载gulp模块
 let minimist = require('minimist') //传参
 let pro = require('child_process') //运行子进程库
 let sftp = require('gulp-sftp') //sftp上传程序
-let projectName='zcq'
+let projectName='tcreadme'
 let gutil = require('gulp-util');
 
 
@@ -13,7 +13,7 @@ let assets = process.cwd() + '/'+projectName,
   remoteServer1Prep = {
       host: '47.92.74.29',
       port: 22,
-      remotePath: '/server/backend/zcq',
+      remotePath: '/server/backend/tcreadme',
       user: username,
       pass: password
   }

@@ -9,7 +9,7 @@ console.log(__dirname)
 var domainFile = path.join(__dirname, '../config/domain.json');
 var domainConfig=JSON.parse(fs.readFileSync( domainFile));
 
-DB_URL = 'mongodb://'+domainConfig.ip+':27017/zcq';
+DB_URL = 'mongodb://'+domainConfig.ip+':27017/tcreadme';
 
 
 mongoose.Promise = Promise;

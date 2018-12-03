@@ -36,7 +36,7 @@ cp('-R', 'index.js', assetsPath)
 cp('-R', 'package.json', assetsPath)
 
 
-let file='../zcq/config/domain.json'
+let file='../tcreadme/config/domain.json'
 //读取json文件
 fs.readFile(file, 'utf-8', function(err, data) {
     if (err) {

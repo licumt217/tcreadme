@@ -2,7 +2,7 @@
  * Created by liqiang on 2017/5/23.
  */
 let path = require('path')
-let projectName='zcq';
+let projectName='tcreadme';
 
 module.exports = {
     local: {

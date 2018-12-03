@@ -62,7 +62,7 @@ fs.readFile('config/domain.json', 'utf-8', function(err, data) {
             const host = server.address().address
             const port = server.address().port
     
-            logger.info("zcq后台服务成功启动，访问地址为 http://%s:%s", host, port)
+            logger.info("tcreadme后台服务成功启动，访问地址为 http://%s:%s", host, port)
         
             
         
