@@ -31,7 +31,7 @@ router.post('/add', function (req, res) {
                 res.send(Response.success(data));
                 
             }).catch(data=>{
-                errlogger.error("新增用户异常！",data)
+                logger.info("新增用户异常！",data)
                 res.send(Response.systemException());
             })
         }
