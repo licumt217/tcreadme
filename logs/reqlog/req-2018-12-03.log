@@ -1,0 +1,246 @@
+[2018-12-03T15:16:23.644] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:16:39.844] [INFO] default - 新增用户参数： { username: 'liqiang', password: '123456', department: '研发部' }
+[2018-12-03T15:16:39.880] [INFO] default - [127.0.0.1 POST /user/add 200 69ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:17:07.692] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:17:13.896] [INFO] default - 新增用户参数： { username: 'liqian2g', password: '123456', department: '研发部' }
+[2018-12-03T15:17:13.925] [INFO] default - [127.0.0.1 POST /user/add 200 60ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:17:34.811] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:17:38.486] [INFO] default - 新增用户参数： { username: 'liqi2an2g', password: '123456', department: '研发部' }
+[2018-12-03T15:17:38.520] [INFO] default - [127.0.0.1 POST /user/add 200 56ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:17:58.649] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:18:02.893] [INFO] default - 新增用户参数： { username: 'liqi2232an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:18:02.928] [INFO] default - [127.0.0.1 POST /user/add 200 71ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:20:02.022] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:22:44.088] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:23:33.030] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:23:38.778] [INFO] default - 新增用户参数： { username: 'liqi2232322an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:23:38.816] [INFO] default - [127.0.0.1 POST /user/add 200 57ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:24:09.901] [INFO] default - 获取用户列表的参数： { username: 'liqi2232322an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:24:09.908] [INFO] default - [127.0.0.1 POST /user/list 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:29:52.880] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:30:10.373] [INFO] default - 新增用户参数： { username: 'liqi2232322222an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:30:10.400] [INFO] default - [127.0.0.1 POST /user/add 200 45ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:30:53.959] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:31:05.334] [INFO] default - 新增用户参数： { username: 'liqi2232322222323an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:31:05.365] [INFO] default - [127.0.0.1 POST /user/add 200 54ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:31:34.932] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:31:52.808] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:31:59.054] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:32:03.863] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:32:08.231] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:32:10.049] [INFO] default - 新增用户参数： { username: 'liqi22323232322222323an2g',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T15:32:10.075] [INFO] default - [127.0.0.1 POST /user/add 200 66ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:32:26.637] [INFO] default - 新增用户参数： { username: 'liqi22323232322222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:32:26.644] [INFO] default - [127.0.0.1 POST /user/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:09.760] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:34:24.942] [INFO] default - [127.0.0.1 POST /user/add 404 29ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:32.834] [INFO] default - [127.0.0.1 POST / 404 2ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:41.447] [INFO] default - [127.0.0.1 POST /tcreadme/ 404 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:46.521] [INFO] default - [127.0.0.1 POST /tcreadme 404 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:53.144] [INFO] default - [127.0.0.1 POST /tcreadme/user/ 404 1ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:34:56.636] [INFO] default - 新增用户参数： { username: 'liqi22323232322222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:34:56.658] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 23ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:35:11.583] [INFO] default - 获取用户列表的参数： { username: 'liqi22323232322222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:35:11.589] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:36:21.815] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T15:36:33.103] [INFO] default - 获取用户列表的参数： { username: 'liqi2232323232232222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:36:33.125] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 40ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:36:36.545] [INFO] default - 新增用户参数： { username: 'liqi2232323232232222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:36:36.557] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: null,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-03T15:36:36.559] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 14ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:36:50.026] [INFO] default - 新增用户参数： { username: 'liqi2232323232232222323an2g',
+  password: '123456',
+  department: null }
+[2018-12-03T15:36:50.030] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: null,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-03T15:36:50.032] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:37:13.896] [INFO] default - 新增用户参数： { username: 'liqi2232323232232222323an2g',
+  password: '123456',
+  department: '' }
+[2018-12-03T15:37:13.899] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-03T15:37:13.901] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T15:37:24.018] [INFO] default - 新增用户参数： { username: 'liqi2232323232232222323an2g',
+  password: '123456',
+  department: 'xx' }
+[2018-12-03T15:37:24.025] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:13:41.953] [INFO] default - 新增用户参数： { username: '2323232323', password: '123456', department: '研发部' }
+[2018-12-03T16:13:41.957] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:15:00.003] [INFO] default - 用户登录参数： { username: '2323232323', password: '123456', department: '研发部' }
+[2018-12-03T16:15:00.008] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:15:03.062] [INFO] default - 用户登录参数： { username: '2323232323', password: '123456', department: '研发部' }
+[2018-12-03T16:15:03.065] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:15:07.853] [INFO] default - 用户登录参数： { username: '2323232323',
+  password: '1234526',
+  department: '研发部' }
+[2018-12-03T16:15:07.860] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:17:16.807] [INFO] default - 用户登录参数： { username: '2323232323', password: '123456', department: '研发部' }
+[2018-12-03T16:17:16.810] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:19:27.444] [INFO] default - 用户登录参数： { username: '2323232323',
+  password: '12345226',
+  department: '研发部' }
+[2018-12-03T16:19:27.446] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 2ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:21:07.356] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-03T16:21:10.836] [INFO] default - 用户登录参数： { username: '2323232323',
+  password: '12345226',
+  department: '研发部' }
+[2018-12-03T16:21:10.858] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 67ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:21:12.912] [INFO] default - 用户登录参数： { username: '2323232323',
+  password: '12345226',
+  department: '研发部' }
+[2018-12-03T16:21:12.944] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 33ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:21:18.492] [INFO] default - 用户登录参数： { username: '2323232323', password: '123456', department: '研发部' }
+[2018-12-03T16:21:18.499] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-03T16:21:22.346] [INFO] default - 用户登录参数： { username: '232323232322',
+  password: '123456',
+  department: '研发部' }
+[2018-12-03T16:21:22.349] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]

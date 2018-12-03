@@ -5,6 +5,7 @@ let fs = require("fs");
 let path = require("path");
 let bodyParser = require('body-parser');
 let multer  = require('multer');
+const projectName='tcreadme'
 
 const log4js= require('./config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
@@ -29,9 +30,9 @@ app.use(bodyParser.urlencoded({            //此项必须在 bodyParser.json 下
 multer({dest:'uploads/'});
 
 
-app.use('/', indexRouter);
-app.use('/user', userRouter);
-app.use('/upload', uploadRouter);
+app.use(`/${projectName}`, indexRouter);
+app.use(`/${projectName}/user`, userRouter);
+app.use(`/${projectName}/upload`, uploadRouter);
 
 
 

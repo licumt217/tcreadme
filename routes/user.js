@@ -79,20 +79,38 @@ router.post('/login', function (req, res) {
     logger.info("用户登录参数：",req.body)
     
     let whereObj={
-        username:req.body.username,
-        password:req.body.password
+        username:req.body.username
     };
+    
     
     
     User.find(whereObj).then(data=>{
         
         if(data && data.length>0){
     
-            res.send(Response.success());
+            let whereObj={
+                username:req.body.username,
+                password:req.body.password
+            };
+            User.find(whereObj).then(data=>{
+        
+                if(data && data.length>0){
+            
+            
+                    res.send(Response.success());
+            
+                }else{
+            
+                    res.send(Response.businessException("密码不正确！"))
+                }
+            }).catch(err=>{
+                logger.info(err)
+                res.send(Response.systemException())
+            })
             
         }else{
     
-            res.send(Response.businessException("未找到对应用户"))
+            res.send(Response.businessException("账号不存在！"))
         }
     }).catch(err=>{
         logger.info(err)
