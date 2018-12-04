@@ -1,1 +1,328 @@
 [2018-12-04T10:30:27.073] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T10:48:24.258] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T10:52:27.914] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T10:53:04.065] [INFO] default - 新增资源参数： { name: '权限管理', parentCode: '', code: '0001', url: '/auth/' }
+[2018-12-04T10:53:04.093] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 45ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T10:53:21.733] [INFO] default - 新增资源参数： { name: '资源管理', parentCode: '', code: '0001', url: '/auth/' }
+[2018-12-04T10:53:21.737] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 4ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T10:56:34.201] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T10:58:17.411] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T11:01:20.916] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T11:55:34.286] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T11:59:36.732] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:01:09.620] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:01:50.049] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:04:14.802] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:04:44.148] [INFO] default - 新增用户参数： { name: '资源管理', parentCode: '', code: '0001', url: '/auth/' }
+[2018-12-04T12:04:44.164] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required., password: Path `password` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     password: 
+      { ValidatorError: Path `password` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-04T12:04:44.173] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 42ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:04:58.486] [INFO] default - 新增用户参数： { username: '资源管理', password: '', code: '0001', url: '/auth/' }
+[2018-12-04T12:04:58.491] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required., password: Path `password` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     password: 
+      { ValidatorError: Path `password` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-04T12:04:58.493] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:05:44.223] [INFO] default - 新增用户参数： { username: '资源管理', password: '', code: '0001', url: '/auth/' }
+[2018-12-04T12:05:44.227] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required., password: Path `password` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     password: 
+      { ValidatorError: Path `password` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-04T12:05:44.233] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:05:46.934] [INFO] default - 新增用户参数： { username: '资源管理', password: '', code: '0001', url: '/auth/' }
+[2018-12-04T12:05:46.940] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required., password: Path `password` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     password: 
+      { ValidatorError: Path `password` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'password',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-04T12:05:46.949] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 14ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:06:04.833] [INFO] default - 新增用户参数： { username: '资源管理', password: '222', code: '0001', url: '/auth/' }
+[2018-12-04T12:06:04.835] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.data (D:\tjd\tcreadme\routes\user.js:34:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-04T12:06:04.839] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:12:44.904] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:14:21.026] [INFO] default - 新增用户参数： { username: 'fsfsfsf', password: '123456', department: '前端' }
+[2018-12-04T12:14:21.053] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 43ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:14:22.143] [INFO] default - 新增用户参数： { username: 'fsfsfsf', password: '123456', department: '前端' }
+[2018-12-04T12:14:22.147] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:14:26.334] [INFO] default - 新增用户参数： { username: '232323', password: '123456', department: '前端' }
+[2018-12-04T12:14:26.339] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:14:30.925] [INFO] default - 新增用户参数： { username: '23232323', password: '123456', department: '前端' }
+[2018-12-04T12:14:30.945] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 20ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:14:35.583] [INFO] default - 新增用户参数： { username: '11111111', password: '123456', department: '前端' }
+[2018-12-04T12:14:35.587] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
