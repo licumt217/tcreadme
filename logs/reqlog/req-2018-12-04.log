@@ -326,3 +326,464 @@
 [2018-12-04T12:14:30.945] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 20ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
 [2018-12-04T12:14:35.583] [INFO] default - 新增用户参数： { username: '11111111', password: '123456', department: '前端' }
 [2018-12-04T12:14:35.587] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:16:26.175] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:16:32.243] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:17:19.813] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:17:19.845] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:17:19.852] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 63ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:21:49.361] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:21:53.809] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:21:53.834] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:21:53.840] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 56ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:22:41.940] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:22:41.951] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:22:41.960] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 21ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:22:49.427] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:22:53.042] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:22:53.071] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:22:53.080] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 67ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:23:54.348] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:26:28.534] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:26:31.115] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:26:31.144] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:26:31.150] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 59ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:28:04.603] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:28:09.183] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:28:09.211] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:28:09.218] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 61ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:28:24.996] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:28:27.624] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:28:27.648] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:28:27.654] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 50ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:28:46.447] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:28:48.306] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:28:48.333] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:28:48.342] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 53ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:28:50.381] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:28:50.397] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:28:50.398] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 18ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:28:58.402] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T12:29:02.927] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:29:02.965] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 56ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:03.780] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:29:03.789] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 10ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:04.898] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:29:04.902] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:05.834] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:29:05.855] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 22ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:07.015] [INFO] default - 新增资源参数： { name: '11111111', url: '/' }
+[2018-12-04T12:29:07.023] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:11.794] [INFO] default - 新增资源参数： { name: '1111122111', url: '/' }
+[2018-12-04T12:29:11.801] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:15.424] [INFO] default - 新增资源参数： { name: '11111223232111', url: '/' }
+[2018-12-04T12:29:15.445] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 22ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:19.096] [INFO] default - 新增资源参数： { name: '11111223232111', url: '/2323' }
+[2018-12-04T12:29:19.125] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:29:19.128] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 32ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:25.725] [INFO] default - 新增资源参数： { name: '11111223232111', url: '/2323' }
+[2018-12-04T12:29:25.731] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:29:25.734] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 10ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T12:29:28.899] [INFO] default - 新增资源参数： { name: '11111223232111', url: '/2323' }
+[2018-12-04T12:29:28.904] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T12:29:28.907] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:17:23.070] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:17:23.076] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:17:23.077] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:18:50.997] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:18:51.002] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:18:51.004] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:18:58.873] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:18:58.879] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: _id_ dup key: { : "a7cbc142d2254d8b9ae7e8c3ee80bbbe" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:18:58.880] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:19:22.673] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:19:26.629] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:19:29.284] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:19:29.314] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : null }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : null }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:19:29.324] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 58ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:20:15.423] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:20:18.050] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:20:18.080] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : null }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : null }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:20:18.090] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 96ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:21:46.482] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:21:47.884] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:21:47.938] [INFO] default - 新增资源异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: parentCode_1 dup key: { : "0000" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-04T14:21:47.951] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 89ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:24:13.892] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:24:13.900] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:24:16.670] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:24:16.678] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:24:18.061] [INFO] default - 新增资源参数： { name: '11111223223232111', url: '/22323323' }
+[2018-12-04T14:24:18.066] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:25:47.534] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:27:14.996] [INFO] default - 新增资源参数： { name: '权限管理', url: '/' }
+[2018-12-04T14:27:15.031] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:28:06.616] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:28:11.460] [INFO] default - 新增资源参数： { name: '权限2管理', url: '/' }
+[2018-12-04T14:28:11.460] [INFO] default - 新增资源参数： undefined
+[2018-12-04T14:28:11.481] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 36ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:28:50.775] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:28:53.381] [INFO] default - 新增资源参数： { name: '权限2管理', url: '/' }
+[2018-12-04T14:28:53.408] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 49ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:28:57.300] [INFO] default - 新增资源参数： { name: '权限22管理', url: '/' }
+[2018-12-04T14:28:57.304] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 4ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:29:02.881] [INFO] default - 新增资源参数： { name: '权限2232管理', url: '/xx' }
+[2018-12-04T14:29:02.899] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 19ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:31:27.831] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T14:31:29.498] [INFO] default - 新增资源参数： { name: '权限2232管理', url: '/xx' }
+[2018-12-04T14:31:29.534] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 71ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:31:34.266] [INFO] default - 新增资源参数： { name: '权限223222管理', url: '/x22x' }
+[2018-12-04T14:31:34.271] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:31:38.680] [INFO] default - 新增资源参数： { name: '权限2232323222管理', url: '/x232322x' }
+[2018-12-04T14:31:38.687] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:32:15.530] [INFO] default - 新增资源参数： { name: '权限管理', url: '/x' }
+[2018-12-04T14:32:15.542] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 13ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:32:46.505] [INFO] default - 新增资源参数： { name: '权限管理', url: '/x' }
+[2018-12-04T14:32:46.509] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 4ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T14:33:23.932] [INFO] default - 新增资源参数： { name: '资源管理', url: '/x', parentCode: '00000001' }
+[2018-12-04T14:33:23.938] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:12:58.990] [INFO] default - 新增资源参数： { name: '资源管理', url: '/x', parentCode: '00000001' }
+[2018-12-04T16:12:58.994] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:14:07.603] [INFO] default - 新增资源参数： { name: '资源管理', url: '/xx', parentCode: '00000001' }
+[2018-12-04T16:14:07.606] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:14:44.038] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T16:14:47.517] [INFO] default - 新增资源参数： { name: '资源管理', url: '/xx', parentCode: '00000001' }
+[2018-12-04T16:14:47.526] [INFO] default - 00000001
+[2018-12-04T16:14:47.544] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 48ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:15:39.832] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T16:16:28.211] [INFO] default - 新增资源参数： { name: '权限管理', url: '/xx' }
+[2018-12-04T16:16:28.220] [INFO] default - 00000001
+[2018-12-04T16:16:28.242] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 50ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:16:49.504] [INFO] default - 新增资源参数： { name: '资源管理', url: '/xx', parentCode: '00000001' }
+[2018-12-04T16:16:49.511] [INFO] default - 000000010001
+[2018-12-04T16:16:49.527] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 24ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:16:55.179] [INFO] default - 新增资源参数： { name: '资源管理', url: '/xxx', parentCode: '00000001' }
+[2018-12-04T16:16:55.181] [INFO] default - 000000010001
+[2018-12-04T16:16:55.188] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T16:17:13.229] [INFO] default - 新增资源参数： { name: '角色管理', url: '/xxxx', parentCode: '00000001' }
+[2018-12-04T16:17:13.231] [INFO] default - 10002
+[2018-12-04T16:17:13.235] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T17:02:38.740] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:22:51.533] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:23:54.695] [INFO] default - 新增资源参数： { name: '权限管理', url: '/xxxx', parentCode: '0000' }
+[2018-12-04T18:23:54.703] [INFO] default - 00000001
+[2018-12-04T18:23:54.729] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:24:16.567] [INFO] default - 新增资源参数： { name: '资源管理', url: '/xxx2x', parentCode: '00000001' }
+[2018-12-04T18:24:16.568] [INFO] default - 000000010001
+[2018-12-04T18:24:16.573] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:24:29.544] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:24:29.547] [INFO] default - ReferenceError: originalLen11 is not defined
+    at fixCode (D:\tjd\tcreadme\routes\resource.js:10:17)
+    at Resource.find.then.data (D:\tjd\tcreadme\routes\resource.js:37:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2018-12-04T18:24:58.313] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:25:18.894] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:25:18.908] [INFO] default - TypeError: Cannot read property 'length' of undefined
+    at fixCode (D:\tjd\tcreadme\routes\resource.js:10:33)
+    at Resource.find.then.data (D:\tjd\tcreadme\routes\resource.js:37:24)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2018-12-04T18:25:53.802] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:25:58.165] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:25:58.177] [INFO] default - 10002
+[2018-12-04T18:25:58.197] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:27:46.841] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:27:50.921] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:27:50.935] [INFO] default - .....
+[2018-12-04T18:27:50.937] [INFO] default - .....10003
+[2018-12-04T18:27:50.938] [INFO] default - 10003
+[2018-12-04T18:27:50.951] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 50ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:28:18.413] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:28:22.304] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:28:22.318] [INFO] default - .....undefined
+[2018-12-04T18:28:22.318] [INFO] default - 10003
+[2018-12-04T18:28:22.329] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 55ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:29:07.523] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:29:10.535] [INFO] default - 新增资源参数： { name: '角色管理', url: '/x2xx2x', parentCode: '00000001' }
+[2018-12-04T18:29:10.551] [INFO] default - 10003
+[2018-12-04T18:29:10.563] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:31:16.070] [INFO] default - 新增资源参数： { name: '权限管理', url: '/', parentCode: '0000' }
+[2018-12-04T18:31:16.072] [INFO] default - 00000001
+[2018-12-04T18:31:16.085] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 15ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:31:27.673] [INFO] default - 新增资源参数： { name: '资源管理', url: '/x', parentCode: '00000001' }
+[2018-12-04T18:31:27.676] [INFO] default - 000000010001
+[2018-12-04T18:31:27.685] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 13ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:31:34.977] [INFO] default - 新增资源参数： { name: '角色管理', url: '/xx', parentCode: '00000001' }
+[2018-12-04T18:31:34.980] [INFO] default - 10002
+[2018-12-04T18:31:34.984] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:31:42.811] [INFO] default - 新增资源参数： { name: '人员管理', url: '/xxx', parentCode: '00000001' }
+[2018-12-04T18:31:42.812] [INFO] default - 10003
+[2018-12-04T18:31:42.816] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:31:45.562] [INFO] default - 新增资源参数： { name: '人员管理', url: '/xxx', parentCode: '00000001' }
+[2018-12-04T18:31:45.564] [INFO] default - 10004
+[2018-12-04T18:31:45.568] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:32:39.021] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:32:49.883] [INFO] default - 新增资源参数： { name: '人2员管理', url: '/33xxx', parentCode: '00000001' }
+[2018-12-04T18:32:49.896] [INFO] default - >>>:{ state: 0,
+  parentCode: '00000001',
+  _id: 5c06577ff0029d2218b673cd,
+  name: '资源管理',
+  url: '/x',
+  code: '000000010001',
+  __v: 0 }
+[2018-12-04T18:32:49.897] [INFO] default - >>>:undefined
+[2018-12-04T18:32:49.897] [INFO] default - 10004
+[2018-12-04T18:32:49.916] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 54ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:33:13.195] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:33:19.506] [INFO] default - 新增资源参数： { name: '人2员2管理', url: '/323xxx', parentCode: '00000001' }
+[2018-12-04T18:33:19.518] [INFO] default - 000000010005
+[2018-12-04T18:33:19.536] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 47ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:33:51.545] [INFO] default - 新增资源参数： { name: '权限管理', url: '/323xxx', parentCode: '0000' }
+[2018-12-04T18:33:51.547] [INFO] default - 00000001
+[2018-12-04T18:33:51.552] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:34:08.811] [INFO] default - 新增资源参数： { name: '资源管理', url: '/3232xxx', parentCode: '00000001' }
+[2018-12-04T18:34:08.812] [INFO] default - 000000010001
+[2018-12-04T18:34:08.815] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:34:16.565] [INFO] default - 新增资源参数： { name: '角色管理', url: '/32232xxx', parentCode: '00000001' }
+[2018-12-04T18:34:16.566] [INFO] default - 000000010002
+[2018-12-04T18:34:16.570] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:34:24.575] [INFO] default - 新增资源参数： { name: '人员管理', url: '/3223232xxx', parentCode: '00000001' }
+[2018-12-04T18:34:24.585] [INFO] default - 000000010003
+[2018-12-04T18:34:24.596] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 22ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T18:38:53.954] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:39:53.729] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:41:17.481] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:41:22.026] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:41:52.876] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T18:46:12.211] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
