@@ -787,3 +787,539 @@
 [2018-12-04T18:41:22.026] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
 [2018-12-04T18:41:52.876] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
 [2018-12-04T18:46:12.211] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:11:40.075] [INFO] default - 新增资源参数： { name: '技术文档', url: '/3223232xxx', parentCode: '0000' }
+[2018-12-04T19:11:40.101] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 44ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:11:44.630] [INFO] default - 新增资源参数： { name: '技术文档', url: '/22', parentCode: '0000' }
+[2018-12-04T19:11:44.651] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 21ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:11:53.963] [INFO] default - 新增资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:11:53.979] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 16ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:13:24.090] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:13:24.094] [INFO] default - ...................
+[2018-12-04T19:13:24.095] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:13:24.098] [INFO] default - [127.0.0.1 POST /tcreadme/resource/list 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:15:52.481] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:20:26.156] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:20:55.306] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:20:55.331] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 42ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:21:35.161] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:21:38.539] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:21:38.584] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 95ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:21:44.045] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:21:44.052] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:22:33.327] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:22:35.584] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:22:35.601] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 37ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:23:22.073] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:23:38.706] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:23:38.721] [INFO] default - 0000 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 00000001 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 00000001 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 00000001 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 0000 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 0000 00000001
+[2018-12-04T19:23:38.722] [INFO] default - 0000 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 00000001 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 00000001 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 00000001 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 0000 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 0000 00000002
+[2018-12-04T19:23:38.723] [INFO] default - 0000 00000003
+[2018-12-04T19:23:38.723] [INFO] default - 00000001 00000003
+[2018-12-04T19:23:38.724] [INFO] default - 00000001 00000003
+[2018-12-04T19:23:38.724] [INFO] default - 00000001 00000003
+[2018-12-04T19:23:38.724] [INFO] default - 0000 00000003
+[2018-12-04T19:23:38.724] [INFO] default - 0000 00000003
+[2018-12-04T19:23:38.731] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 47ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:24:56.388] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:24:58.258] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:24:58.271] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:24:58.273] [INFO] default - []
+[2018-12-04T19:24:58.274] [INFO] default - []
+[2018-12-04T19:24:58.282] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 45ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:26:25.445] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:27:19.139] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:27:19.160] [INFO] default - ReferenceError: level is not defined
+    at data.forEach (D:\tjd\tcreadme\routes\resource.js:80:38)
+    at Array.forEach (<anonymous>)
+    at Resource.find.then.data (D:\tjd\tcreadme\routes\resource.js:79:18)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2018-12-04T19:27:19.167] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 64ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:27:48.370] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:27:49.803] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:27:49.822] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 37ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:28:26.290] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:28:49.481] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:28:49.495] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:28:49.512] [INFO] default - []
+[2018-12-04T19:28:49.512] [INFO] default - []
+[2018-12-04T19:28:49.518] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 54ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:29:27.253] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:29:43.941] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:29:43.955] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:29:43.958] [INFO] default - []
+[2018-12-04T19:29:43.959] [INFO] default - []
+[2018-12-04T19:29:43.965] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 43ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:30:04.362] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:30:10.126] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:30:10.139] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:10.145] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:10.147] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:10.160] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 55ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:30:42.432] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:30:44.657] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:30:44.670] [INFO] default - ......................
+[2018-12-04T19:30:44.670] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:44.672] [INFO] default - ......................
+[2018-12-04T19:30:44.673] [INFO] default - ......................
+[2018-12-04T19:30:44.673] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:44.674] [INFO] default - ......................
+[2018-12-04T19:30:44.674] [INFO] default - ......................
+[2018-12-04T19:30:44.675] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:30:44.676] [INFO] default - ......................
+[2018-12-04T19:30:44.681] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 42ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:31:00.880] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:31:00.884] [INFO] default - ......................
+[2018-12-04T19:31:00.884] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:31:00.886] [INFO] default - ......................
+[2018-12-04T19:31:00.886] [INFO] default - ......................
+[2018-12-04T19:31:00.887] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:31:00.889] [INFO] default - ......................
+[2018-12-04T19:31:00.889] [INFO] default - ......................
+[2018-12-04T19:31:00.889] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-04T19:31:00.890] [INFO] default - ......................
+[2018-12-04T19:31:00.892] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 11ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:37:10.850] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:37:16.643] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:37:16.656] [INFO] default - ......................
+[2018-12-04T19:37:16.657] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: 5c06580f8e45c440c442b260,
+  name: '权限管理',
+  url: '/323xxx',
+  code: '00000001',
+  __v: 0 }
+[2018-12-04T19:37:16.658] [INFO] default - ......................
+[2018-12-04T19:37:16.658] [INFO] default - ......................
+[2018-12-04T19:37:16.658] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: 5c0660f07aa87a73fce6b6cf,
+  name: '技术文档',
+  url: '/22',
+  code: '00000002',
+  __v: 0 }
+[2018-12-04T19:37:16.659] [INFO] default - ......................
+[2018-12-04T19:37:16.659] [INFO] default - ......................
+[2018-12-04T19:37:16.660] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: 5c0660f97aa87a73fce6b6d0,
+  name: '操作手册',
+  url: '/22fsfs',
+  code: '00000003',
+  __v: 0 }
+[2018-12-04T19:37:16.660] [INFO] default - ......................
+[2018-12-04T19:37:16.668] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 65ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:38:37.341] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:38:53.546] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:38:55.973] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:38:55.986] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:38:55.993] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 38ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:39:22.579] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:39:26.773] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:39:26.792] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 37ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:39:46.762] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:39:48.895] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:39:48.908] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:39:48.915] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 38ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:40:27.915] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:40:29.649] [INFO] default - list资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-04T19:40:29.662] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: 5c06580f8e45c440c442b260,
+  name: '权限管理',
+  url: '/323xxx',
+  code: '00000001',
+  __v: 0 }
+[2018-12-04T19:40:29.668] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 39ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:40:44.451] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:40:54.174] [INFO] default - list资源参数： {}
+[2018-12-04T19:40:54.188] [INFO] default - [ { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 } ]
+[2018-12-04T19:40:54.197] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 41ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:41:11.360] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:41:15.539] [INFO] default - list资源参数： {}
+[2018-12-04T19:41:15.557] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: 5c06580f8e45c440c442b260,
+  name: '权限管理',
+  url: '/323xxx',
+  code: '00000001',
+  __v: 0 }
+[2018-12-04T19:41:15.568] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 48ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-04T19:42:25.824] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-04T19:42:28.274] [INFO] default - list资源参数： {}
+[2018-12-04T19:42:28.292] [INFO] default - TypeError: data.toObject is not a function
+    at Resource.find.then.data (D:\tjd\tcreadme\routes\resource.js:70:19)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2018-12-04T19:42:28.299] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 56ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]

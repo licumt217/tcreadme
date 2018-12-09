@@ -1,0 +1,292 @@
+[2018-12-09T11:39:24.535] [INFO] default - 删除角色参数： { name: '超管22223233' }
+[2018-12-09T11:39:24.559] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:42:00.520] [INFO] default - 新增资源参数： { name: '操作手册2', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-09T11:42:00.525] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:42:06.512] [INFO] default - 新增资源参数： { name: '操作手册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-09T11:42:06.517] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:44:33.686] [INFO] default - list资源参数： {}
+[2018-12-09T11:44:33.692] [INFO] default - [127.0.0.1 POST /tcreadme/resource/list 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:46:30.631] [INFO] default - list资源参数： {}
+[2018-12-09T11:46:30.641] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:48:22.629] [INFO] default - 新增角色参数： { name: '超管2222322233' }
+[2018-12-09T11:48:22.659] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 31ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:51:38.184] [INFO] default - 修改角色信息参数： { name: '超管2', originalName: '超管' }
+[2018-12-09T11:51:38.186] [INFO] default - [127.0.0.1 POST /tcreadme/role/update 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:51:47.914] [INFO] default - 修改角色信息参数： { name: '超管xxx2', originalName: '超管2' }
+[2018-12-09T11:51:47.921] [INFO] default - [127.0.0.1 POST /tcreadme/role/update 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:52:33.877] [INFO] default - 删除角色参数： { name: '超管22223233' }
+[2018-12-09T11:52:33.887] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:52:43.090] [INFO] default - 删除角色参数： { name: '超管2' }
+[2018-12-09T11:52:43.095] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:52:48.076] [INFO] default - 获取角色列表的参数： {}
+[2018-12-09T11:52:48.078] [INFO] default - [127.0.0.1 POST /tcreadme/role/list 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:52:58.026] [INFO] default - 删除角色参数： { name: '超管xxx2' }
+[2018-12-09T11:52:58.035] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:57:17.557] [INFO] default - 获取角色列表的参数： {}
+[2018-12-09T11:57:17.565] [INFO] default - [127.0.0.1 POST /tcreadme/role/list 200 9ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:57:29.771] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T11:57:29.776] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:59:22.342] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-09T11:59:22.344] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T11:59:22.358] [INFO] default - .........1 [ { _id: 5c099f31fed2df63f0d16860,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099f31fed2df63f0d16861,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099f31fed2df63f0d16862,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-09T11:59:22.362] [INFO] default - .........2 { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T11:59:22.384] [INFO] default - .........4 { n: 3, ok: 1 }
+[2018-12-09T11:59:22.395] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 53ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T11:59:28.778] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T11:59:28.782] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:02:17.338] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:02:17.353] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:04:32.382] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-09T12:04:32.383] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:04:32.386] [INFO] default - .........1 [ { _id: 5c0c931a68ca013088f11004,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c0c931a68ca013088f11005,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-09T12:04:32.388] [INFO] default - .........2 { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:04:32.390] [INFO] default - .........4 { n: 2, ok: 1 }
+[2018-12-09T12:04:32.395] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 14ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:05:40.168] [INFO] default - 新增人员角色关系参数： { userId: '5c098da6d1e543761c49c80a',
+  roleIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-09T12:05:40.171] [INFO] default - { userId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:05:40.212] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/update 200 45ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:06:08.024] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:06:08.026] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 2ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:07:29.932] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/listByUserId 404 1ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:07:51.742] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:07:58.933] [INFO] default - 根据用户id获取资源列表的参数： { userId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:07:58.949] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/listByUserId 200 32ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:24:07.221] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:24:07.231] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 12ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:31:54.663] [INFO] default - [127.0.0.1 POST /user/list 404 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:32:25.831] [INFO] default - [127.0.0.1 POST /user/list 404 1ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:32:33.961] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:32:37.085] [INFO] default - [127.0.0.1 POST /user/list 404 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:32:56.521] [INFO] default - 获取用户列表的参数： {}
+[2018-12-09T12:32:56.546] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:34:07.327] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:34:07.329] [INFO] default - 根据角色id获取资源列表的参数： []
+[2018-12-09T12:34:07.333] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:34:38.394] [INFO] default - 根据用户id获取资源列表的参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:34:38.398] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/listByUserId 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:34:56.388] [INFO] default - 获取角色列表的参数： {}
+[2018-12-09T12:34:56.391] [INFO] default - [127.0.0.1 POST /tcreadme/role/list 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:35:18.216] [INFO] default - 新增人员角色关系参数： { userId: '5c04d8571c56017128fd84e7',
+  roleIdArray: [ '5c09916dd1e543761c49c80c', '5c09916fd1e543761c49c80d' ] }
+[2018-12-09T12:35:18.220] [INFO] default - { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:35:18.230] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/update 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:35:34.952] [INFO] default - 根据用户id获取资源列表的参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:35:34.960] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/listByUserId 200 11ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:36:43.620] [INFO] default - 新增角色资源关系参数： { roleId: '5c09916dd1e543761c49c80c',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0658208e45c440c442b261',
+     '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-09T12:36:43.623] [INFO] default - { roleId: '5c09916dd1e543761c49c80c' }
+[2018-12-09T12:36:43.625] [INFO] default - .........1 []
+[2018-12-09T12:36:43.633] [INFO] default - .........3
+[2018-12-09T12:36:43.638] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:37:14.966] [INFO] default - 新增角色资源关系参数： { roleId: '5c09916dd1e543761c49c80d',
+  resourceIdArray: [ '5c0660f97aa87a73fce6b6d0' ] }
+[2018-12-09T12:37:14.967] [INFO] default - { roleId: '5c09916dd1e543761c49c80d' }
+[2018-12-09T12:37:14.968] [INFO] default - .........1 []
+[2018-12-09T12:37:14.969] [INFO] default - .........3
+[2018-12-09T12:37:14.969] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:37:29.018] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:37:29.020] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9b8652c7483a90c0c938,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9b8652c7483a90c0c939,
+    roleId: '5c09916fd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:37:29.045] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:38:04.741] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:38:04.770] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9b8652c7483a90c0c938,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9b8652c7483a90c0c939,
+    roleId: '5c09916fd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:38:04.781] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 41ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:38:52.834] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:38:52.836] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9b8652c7483a90c0c938,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9b8652c7483a90c0c939,
+    roleId: '5c09916fd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:38:52.843] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 9ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:39:04.118] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:39:08.923] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:39:08.939] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9b8652c7483a90c0c938,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9b8652c7483a90c0c939,
+    roleId: '5c09916fd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:39:08.941] [INFO] default - .............
+[2018-12-09T12:39:08.941] [INFO] default - [ '5c09916dd1e543761c49c80c', '5c09916fd1e543761c49c80d' ]
+[2018-12-09T12:39:08.952] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 51ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:39:40.416] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:39:47.663] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:39:47.677] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9b8652c7483a90c0c938,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9b8652c7483a90c0c939,
+    roleId: '5c09916fd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:39:47.681] [INFO] default - .............
+[2018-12-09T12:39:47.681] [INFO] default - [ '5c06580f8e45c440c442b260',
+  '5c0658208e45c440c442b261',
+  '5c0660f07aa87a73fce6b6cf' ]
+[2018-12-09T12:39:47.688] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 52ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:40:16.982] [INFO] default - 根据用户id获取资源列表的参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:40:16.985] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/listByUserId 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:40:25.766] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-09T12:40:25.771] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:40:32.676] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80c' }
+[2018-12-09T12:40:32.683] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:40:41.849] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:40:41.853] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:41:05.459] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:41:05.463] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:41:50.709] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:41:55.984] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:41:55.985] [INFO] default - ..........
+[2018-12-09T12:41:55.988] [INFO] default - { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:41:55.999] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 30ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:43:37.746] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:43:46.286] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:43:46.287] [INFO] default - ..........
+[2018-12-09T12:43:46.287] [INFO] default - { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:43:46.294] [INFO] default - []
+[2018-12-09T12:43:46.299] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 29ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:43:55.593] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:43:55.597] [INFO] default - ..........
+[2018-12-09T12:43:55.604] [INFO] default - { roleId: '5c098da6d1e543761c49c80d' }
+[2018-12-09T12:43:55.607] [INFO] default - []
+[2018-12-09T12:43:55.608] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:45:35.775] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c09916dd1e543761c49c80d' }
+[2018-12-09T12:45:35.778] [INFO] default - ..........
+[2018-12-09T12:45:35.781] [INFO] default - { roleId: '5c09916dd1e543761c49c80d' }
+[2018-12-09T12:45:35.791] [INFO] default - [ { _id: 5c0c9bfa52c7483a90c0c93d,
+    resourceId: '5c0660f97aa87a73fce6b6d0',
+    roleId: '5c09916dd1e543761c49c80d' } ]
+[2018-12-09T12:45:35.797] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:45:55.951] [INFO] default - 新增人员角色关系参数： { userId: '5c04d8571c56017128fd84e7',
+  roleIdArray: [ '5c09916dd1e543761c49c80c', '5c09916dd1e543761c49c80d' ] }
+[2018-12-09T12:45:55.955] [INFO] default - { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:45:55.982] [INFO] default - [127.0.0.1 POST /tcreadme/userRoleRelation/update 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:46:05.284] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:46:05.287] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9e03263f6550e471faed,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9e03263f6550e471faee,
+    roleId: '5c09916dd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:46:05.290] [INFO] default - .............
+[2018-12-09T12:46:05.290] [INFO] default - [ '5c06580f8e45c440c442b260',
+  '5c0658208e45c440c442b261',
+  '5c0660f07aa87a73fce6b6cf',
+  '5c0660f97aa87a73fce6b6d0' ]
+[2018-12-09T12:46:05.293] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:46:27.827] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c09916dd1e543761c49c80c' }
+[2018-12-09T12:46:27.828] [INFO] default - ..........
+[2018-12-09T12:46:27.828] [INFO] default - { roleId: '5c09916dd1e543761c49c80c' }
+[2018-12-09T12:46:27.830] [INFO] default - [ { _id: 5c0c9bdb52c7483a90c0c93a,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c09916dd1e543761c49c80c' },
+  { _id: 5c0c9bdb52c7483a90c0c93b,
+    resourceId: '5c0658208e45c440c442b261',
+    roleId: '5c09916dd1e543761c49c80c' },
+  { _id: 5c0c9bdb52c7483a90c0c93c,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c09916dd1e543761c49c80c' } ]
+[2018-12-09T12:46:27.831] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:46:57.860] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:47:06.107] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:47:06.127] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9e03263f6550e471faed,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9e03263f6550e471faee,
+    roleId: '5c09916dd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:47:06.133] [INFO] default - .............
+[2018-12-09T12:47:06.133] [INFO] default - [ '5c06580f8e45c440c442b260',
+  '5c0658208e45c440c442b261',
+  '5c0660f07aa87a73fce6b6cf',
+  '5c0660f97aa87a73fce6b6d0' ]
+[2018-12-09T12:47:06.141] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 51ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:48:41.728] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:48:45.901] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:48:45.939] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9e03263f6550e471faed,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9e03263f6550e471faee,
+    roleId: '5c09916dd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:48:45.970] [INFO] default - .............
+[2018-12-09T12:48:45.978] [INFO] default - [ '5c06580f8e45c440c442b260',
+  '5c0658208e45c440c442b261',
+  '5c0660f07aa87a73fce6b6cf',
+  '5c0660f97aa87a73fce6b6d0' ]
+[2018-12-09T12:48:45.988] [INFO] default - ===
+[2018-12-09T12:48:45.989] [INFO] default - []
+[2018-12-09T12:48:45.994] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 127ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:49:18.016] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-09T12:49:23.084] [INFO] default - list资源参数： {}
+[2018-12-09T12:49:23.112] [INFO] default - [127.0.0.1 POST /tcreadme/resource/list 200 57ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:49:26.360] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-09T12:49:26.369] [INFO] default - 根据角色id获取资源列表的参数： [ { _id: 5c0c9e03263f6550e471faed,
+    roleId: '5c09916dd1e543761c49c80c',
+    userId: '5c04d8571c56017128fd84e7' },
+  { _id: 5c0c9e03263f6550e471faee,
+    roleId: '5c09916dd1e543761c49c80d',
+    userId: '5c04d8571c56017128fd84e7' } ]
+[2018-12-09T12:49:26.379] [INFO] default - .............
+[2018-12-09T12:49:26.380] [INFO] default - [ '5c06580f8e45c440c442b260',
+  '5c0658208e45c440c442b261',
+  '5c0660f07aa87a73fce6b6cf',
+  '5c0660f97aa87a73fce6b6d0' ]
+[2018-12-09T12:49:26.394] [INFO] default - ===
+[2018-12-09T12:49:26.398] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c06580f8e45c440c442b260,
+    name: '权限管理',
+    url: '/323xxx',
+    code: '00000001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-09T12:49:26.411] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 52ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-09T12:49:55.170] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081

@@ -5,8 +5,10 @@ const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
 let User=require('../dao/model/user')
+let UserRoleRelation=require('../dao/model/user_role_relation')
+let Resource=require('../dao/model/resource')
 
-
+let RoleResourceRelation=require('../dao/model/role_resource_relation')
 // 新增
 router.post('/add', function (req, res) {
     
@@ -166,6 +168,87 @@ router.post('/list', function (req, res) {
         logger.info(err)
         res.send(Response.systemException())
     })
+})
+
+/**
+ * 根据用户id获取对应的资源列表（分级）
+ */
+router.post('/getResourcesByUserId', function (req, res) {
+    
+    
+    
+    logger.info("根据用户id获取对应的资源列表参数：",req.body)
+    
+    
+    let whereObj={
+        userId:req.body.userId,
+    };
+    
+    UserRoleRelation.find(whereObj).then(data=>{
+        
+        logger.info("根据角色id获取资源列表的参数：",data)
+        let roleIdArray=[];
+        data.forEach(item=>{
+            roleIdArray.push(item.roleId)
+        })
+        whereObj={
+            roleId:{$in:roleIdArray}
+        };
+        
+        
+        RoleResourceRelation.find(whereObj).then(data=>{
+            let resourceIdArray=[];
+            data.forEach(item=>{
+                resourceIdArray.push(item.resourceId)
+            })
+            
+            whereObj={
+                _id:{$in:resourceIdArray}
+            };
+    
+            Resource.find(whereObj).then(data=>{
+                
+                data=JSON.parse(JSON.stringify(data))
+                let firstLevel=[]
+                data.forEach((item)=>{
+                    if(item.parentCode==='0000'){
+                        firstLevel.push(item)
+                    }
+                })
+                
+                for(let i=0;i<firstLevel.length;i++){
+                    
+                    let children=[]
+                    data.forEach((item)=>{
+                        if(item.parentCode===firstLevel[i].code){
+                            children.push(item)
+                        }
+                    })
+                    
+                    
+                    firstLevel[i].children=children;
+                    
+                }
+                
+                
+                res.send(Response.success(firstLevel))
+            }).catch(err=>{
+                logger.info(err)
+                res.send(Response.systemException())
+            })
+            
+        }).catch(err=>{
+            logger.info(err)
+            res.send(Response.businessException("根据角色id获取资源列表异常"))
+        })
+        
+    }).catch(err=>{
+        logger.info(err)
+        res.send(Response.businessException("根据用户id获取角色列表异常"))
+    })
+    
+    
+    
 })
 
 

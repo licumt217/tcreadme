@@ -1,0 +1,7 @@
+[2018-12-08T18:37:36.044] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-08T18:37:44.554] [INFO] default - 新增资源参数： { name: '操作手册2', url: '/22f22sfs', parentCode: '0000' }
+[2018-12-08T18:37:44.600] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 77ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+[2018-12-08T18:42:57.426] [INFO] default - 新增资源参数： { name: '操作手册2', url: '/22f22sfs', parentCode: '0000' }
+[2018-12-08T18:42:57.434] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+[2018-12-08T18:45:08.721] [INFO] default - 新增资源参数： { name: '操作手册2', url: '/22f22sfs', parentCode: '0000' }
+[2018-12-08T18:45:08.728] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]

@@ -1,0 +1,317 @@
+[2018-12-07T02:05:10.583] [INFO] default - list资源参数： {}
+[2018-12-07T02:05:10.613] [INFO] default - TypeError: data.toObject is not a function
+    at Resource.find.then.data (D:\tjd\tcreadme\routes\resource.js:70:19)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (D:\tjd\tcreadme\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2018-12-07T02:05:10.620] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 42ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T02:05:50.066] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T02:05:55.301] [INFO] default - list资源参数： {}
+[2018-12-07T02:05:55.314] [INFO] default - { state: 0,
+  parentCode: '0000',
+  _id: '5c06580f8e45c440c442b260',
+  name: '权限管理',
+  url: '/323xxx',
+  code: '00000001',
+  __v: 0,
+  children: 
+   [ { state: 0,
+       parentCode: '00000001',
+       _id: '5c0658208e45c440c442b261',
+       name: '资源管理',
+       url: '/3232xxx',
+       code: '000000010001',
+       __v: 0 },
+     { state: 0,
+       parentCode: '00000001',
+       _id: '5c0658288e45c440c442b262',
+       name: '角色管理',
+       url: '/32232xxx',
+       code: '000000010002',
+       __v: 0 },
+     { state: 0,
+       parentCode: '00000001',
+       _id: '5c0658308e45c440c442b263',
+       name: '人员管理',
+       url: '/3223232xxx',
+       code: '000000010003',
+       __v: 0 } ] }
+[2018-12-07T02:05:55.320] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 48ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T02:07:00.814] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T02:07:04.558] [INFO] default - list资源参数： {}
+[2018-12-07T02:07:04.576] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 38ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T04:40:23.989] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T04:42:04.128] [INFO] default - 新增资源参数： { name: '操作手册', url: '/22fsfs', parentCode: '0000' }
+[2018-12-07T04:42:04.171] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 71ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T04:56:51.047] [INFO] default - 新增资源参数： { name: '超管' }
+[2018-12-07T04:56:51.056] [INFO] default - 新增资源异常！ { ValidationError: Resource validation failed: url: Path `url` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at resource.save.then.catch.data (D:\tjd\tcreadme\routes\resource.js:40:28)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { url: 
+      { ValidatorError: Path `url` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `url` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'url',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Resource validation failed',
+  name: 'ValidationError' }
+[2018-12-07T04:56:51.059] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 11ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T04:59:18.489] [INFO] default - 新增角色参数： { name: '超管' }
+[2018-12-07T04:59:18.514] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 27ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:00:20.524] [INFO] default - 删除角色参数： { name: '超管' }
+[2018-12-07T05:00:20.528] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:00:29.334] [INFO] default - 新增角色参数： { name: '超管' }
+[2018-12-07T05:00:29.339] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:13:51.566] [INFO] default - 修改角色信息参数： { name: '超管2', originalName: '超管' }
+[2018-12-07T05:13:51.579] [INFO] default - [127.0.0.1 POST /tcreadme/role/update 200 13ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:15:25.074] [INFO] default - 新增角色参数： { name: '超管23' }
+[2018-12-07T05:15:25.077] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:15:27.757] [INFO] default - 新增角色参数： { name: '超管223233' }
+[2018-12-07T05:15:27.763] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:15:36.008] [INFO] default - 新增角色参数： { name: '超管22223233' }
+[2018-12-07T05:15:36.012] [INFO] default - [127.0.0.1 POST /tcreadme/role/add 200 4ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:16:10.107] [INFO] default - 删除角色参数： { name: '超管22223233' }
+[2018-12-07T05:16:10.111] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:16:42.833] [INFO] default - 获取角色列表的参数： {}
+[2018-12-07T05:16:42.835] [INFO] default - [127.0.0.1 POST /tcreadme/role/list 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:49:58.172] [INFO] default - 删除角色参数： { name: '超管22223233' }
+[2018-12-07T05:49:58.216] [INFO] default - [127.0.0.1 POST /tcreadme/role/remove 200 45ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:52:37.655] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 404 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:53:32.630] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T05:53:35.522] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T05:53:35.566] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 67ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:54:49.305] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T05:54:49.316] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 12ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:56:00.868] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T05:56:05.980] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T05:56:05.981] [INFO] default - ........0
+[2018-12-07T05:56:05.997] [INFO] default - ........1
+[2018-12-07T05:56:06.002] [INFO] default - ........3
+[2018-12-07T05:56:06.008] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 64ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T05:56:06.018] [INFO] default - ........2
+[2018-12-07T05:56:06.040] [INFO] default - ........2
+[2018-12-07T05:59:41.735] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T05:59:43.067] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T05:59:43.068] [INFO] default - ........0
+[2018-12-07T05:59:43.085] [INFO] default - ........1
+[2018-12-07T05:59:43.086] [INFO] default - ........5
+[2018-12-07T06:00:00.527] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:00:04.060] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T06:00:04.061] [INFO] default - ........0
+[2018-12-07T06:00:04.068] [INFO] default - ........1
+[2018-12-07T06:00:04.068] [INFO] default - ........5
+[2018-12-07T06:00:29.414] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:00:30.367] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T06:00:30.367] [INFO] default - ........0
+[2018-12-07T06:00:30.374] [INFO] default - ........1
+[2018-12-07T06:00:30.377] [INFO] default - ........5
+[2018-12-07T06:00:30.388] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 42ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:00:47.498] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:00:50.989] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T06:00:50.991] [INFO] default - ........0
+[2018-12-07T06:00:51.010] [INFO] default - ........1
+[2018-12-07T06:00:51.010] [INFO] default - ........5 TypeError: RoleResourceRelation.insert is not a function
+    at remove.then.data (D:\tjd\tcreadme\routes\role_resource_relation.js:32:30)
+    at <anonymous>
+[2018-12-07T06:00:51.017] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 57ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:01:38.703] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:01:42.505] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T06:01:42.507] [INFO] default - ........0
+[2018-12-07T06:01:42.516] [INFO] default - ........1
+[2018-12-07T06:01:42.520] [INFO] default - ........3
+[2018-12-07T06:01:42.530] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 46ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:02:40.164] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:03:36.544] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:03:44.614] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c06580f8e45c440c442b260', '5c0660f07aa87a73fce6b6cf' ] }
+[2018-12-07T06:03:44.674] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 77ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:04:43.838] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:04:43.852] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 14ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:05:37.619] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:05:41.725] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:05:41.735] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:05:41.774] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 73ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:07:11.472] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:07:15.398] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:07:15.419] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:07:15.434] [INFO] default - .........1 [ { _id: 5c099d3512bab6773807fafe,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099d3512bab6773807faff,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099d3512bab6773807fb00,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:07:15.435] [INFO] default - .........2
+[2018-12-07T06:07:15.450] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 73ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:08:09.593] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:08:13.461] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:08:13.463] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:08:13.477] [INFO] default - .........1 [ { _id: 5c099d933221e51784527642,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099d933221e51784527643,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099d933221e51784527644,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:08:13.480] [INFO] default - .........2
+[2018-12-07T06:08:13.491] [INFO] default - .........4 { n: 3, ok: 1 }
+[2018-12-07T06:08:13.505] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 64ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:08:54.723] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:08:56.715] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:08:56.718] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:08:56.734] [INFO] default - .........1 [ { _id: 5c099dcda69e4d3cec2ec01c,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099dcda69e4d3cec2ec01d,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099dcda69e4d3cec2ec01e,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:08:56.736] [INFO] default - .........2
+[2018-12-07T06:08:56.740] [INFO] default - .........4 { n: 3, ok: 1 }
+[2018-12-07T06:08:56.754] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 67ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:09:27.493] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:09:51.580] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:09:54.609] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:09:54.610] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:09:54.622] [INFO] default - .........1 [ { _id: 5c099df804ccfa6fc8e8ffb7,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099df804ccfa6fc8e8ffb8,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099df804ccfa6fc8e8ffb9,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:09:54.623] [INFO] default - .........2 { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:09:54.627] [INFO] default - .........4 { n: 3, ok: 1 }
+[2018-12-07T06:09:54.637] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 50ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:13:53.880] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: [ '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:13:53.886] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:13:53.913] [INFO] default - .........1 [ { _id: 5c099e32fed2df63f0d1685c,
+    resourceId: '5c06580f8e45c440c442b260',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099e32fed2df63f0d1685d,
+    resourceId: '5c0660f07aa87a73fce6b6cf',
+    roleId: '5c098da6d1e543761c49c80a' },
+  { _id: 5c099e32fed2df63f0d1685e,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:13:53.914] [INFO] default - .........2 { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:13:53.916] [INFO] default - .........4 { n: 3, ok: 1 }
+[2018-12-07T06:13:53.919] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 41ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:14:09.203] [INFO] default - 新增角色资源关系参数： { roleId: '5c098da6d1e543761c49c80a',
+  resourceIdArray: 
+   [ '5c06580f8e45c440c442b260',
+     '5c0660f07aa87a73fce6b6cf',
+     '5c0658308e45c440c442b263' ] }
+[2018-12-07T06:14:09.204] [INFO] default - { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:14:09.213] [INFO] default - .........1 [ { _id: 5c099f21fed2df63f0d1685f,
+    resourceId: '5c0658308e45c440c442b263',
+    roleId: '5c098da6d1e543761c49c80a' } ]
+[2018-12-07T06:14:09.214] [INFO] default - .........2 { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:14:09.215] [INFO] default - .........4 { n: 1, ok: 1 }
+[2018-12-07T06:14:09.217] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/update 200 14ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:16:12.779] [INFO] default - 删除角色资源关系参数： { _id: '5c099f31fed2df63f0d16860' }
+[2018-12-07T06:16:12.781] [INFO] default - .........1 []
+[2018-12-07T06:16:12.781] [INFO] default - .........3
+[2018-12-07T06:16:12.782] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/remove 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:17:11.385] [INFO] default - 删除角色资源关系参数： { _id: '5c099f31fed2df63f0d16860' }
+[2018-12-07T06:17:11.387] [INFO] default - .........1 []
+[2018-12-07T06:17:11.387] [INFO] default - .........3
+[2018-12-07T06:17:11.388] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/remove 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:17:25.196] [INFO] default - 删除角色资源关系参数： { _id: '5c099f31fed2df63f0d16860' }
+[2018-12-07T06:17:25.198] [INFO] default - .........1 []
+[2018-12-07T06:17:25.198] [INFO] default - .........3
+[2018-12-07T06:17:25.200] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/remove 200 4ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:18:09.385] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:19:04.568] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:19:13.688] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-07T06:19:46.808] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:19:46.855] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 90ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:20:42.098] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:20:42.107] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:20:46.480] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a1' }
+[2018-12-07T06:20:46.482] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 3ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-12-07T06:20:52.079] [INFO] default - 根据角色id获取资源列表的参数： { roleId: '5c098da6d1e543761c49c80a' }
+[2018-12-07T06:20:52.081] [INFO] default - [127.0.0.1 POST /tcreadme/roleResourceRelation/listByRoleId 200 2ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]

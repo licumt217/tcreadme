@@ -53,21 +53,48 @@ router.post('/list', function (req, res) {
     
     logger.info("list资源参数：",req.body)
     
-    let resource = new Resource(req.body);
-    
-    //先判断是否有根节点，没有的话先创建
     Resource.find().then(data=>{
-        logger.info('...................')
-        logger.info(data)
+        
         res.send(Response.success(data))
     }).catch(err=>{
         logger.info(err)
         res.send(Response.systemException())
     })
+})
+
+router.post('/listByLevel', function (req, res) {
     
+    logger.info("list资源参数：",req.body)
     
+    Resource.find().then(data=>{
+        data=JSON.parse(JSON.stringify(data))
+        let firstLevel=[]
+        data.forEach((item)=>{
+            if(item.parentCode==='0000'){
+                firstLevel.push(item)
+            }
+        })
+        
+        for(let i=0;i<firstLevel.length;i++){
+            
+            let children=[]
+            data.forEach((item)=>{
+                if(item.parentCode===firstLevel[i].code){
+                    children.push(item)
+                }
+            })
+            
+            
+            firstLevel[i].children=children;
+            
+        }
     
-    
+        
+        res.send(Response.success(firstLevel))
+    }).catch(err=>{
+        logger.info(err)
+        res.send(Response.systemException())
+    })
 })
 
 
