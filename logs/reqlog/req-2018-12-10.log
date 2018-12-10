@@ -179,3 +179,57 @@
   code: 11000,
   errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
   [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-10T20:13:11.045] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:13:18.599] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:13:18.614] [INFO] default - 1
+[2018-12-10T20:13:18.617] [INFO] default - 2
+[2018-12-10T20:13:18.624] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 54ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:13:18.635] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-10T20:13:54.049] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:14:20.664] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:14:20.675] [INFO] default - 1
+[2018-12-10T20:14:20.679] [INFO] default - 2
+[2018-12-10T20:14:20.685] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 37ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:14:20.696] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-10T20:16:22.930] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:16:27.123] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:16:27.135] [INFO] default - 1
+[2018-12-10T20:16:27.140] [INFO] default - 2
+[2018-12-10T20:16:27.149] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 41ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:16:27.162] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }

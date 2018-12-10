@@ -22,15 +22,18 @@ router.post('/add', function (req, res) {
     
     UserDao.find(whereObj).then(data=>{
         if(data && data.length>0){
-        
+            logger.info(1)
             res.send(Response.businessException("用户已存在！"))
+            return;
         
         }else{
+            logger.info(3)
             return new Promise((resolve,reject)=>{
                 resolve();
             })
         }
     }).then(()=>{
+        logger.info(2)
         let user = new User(req.body);
         
         UserDao.save(user).then(data=>{
