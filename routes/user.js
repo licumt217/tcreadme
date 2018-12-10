@@ -9,6 +9,8 @@ let UserRoleRelation=require('../dao/model/user_role_relation')
 let Resource=require('../dao/model/resource')
 
 let RoleResourceRelation=require('../dao/model/role_resource_relation')
+
+let UserDao=require('../dao/dao/UserDao')
 // 新增
 router.post('/add', function (req, res) {
     
@@ -18,29 +20,29 @@ router.post('/add', function (req, res) {
         username:req.body.username
     };
     
-    let user = new User(req.body);
-    
-    User.find(whereObj).then(data=>{
-        
+    UserDao.find(whereObj).then(data=>{
         if(data && data.length>0){
-            
+        
             res.send(Response.businessException("用户已存在！"))
-            
+        
         }else{
-            
-            user.save().then(data=>{
-                
-                res.send(Response.success(data));
-                
-            }).catch(data=>{
-                logger.info("新增用户异常！",data)
-                res.send(Response.systemException());
+            return new Promise((resolve,reject)=>{
+                resolve();
             })
         }
+    }).then(()=>{
+        let user = new User(req.body);
+        
+        UserDao.save(user).then(data=>{
+            res.send(Response.success(data));
+        },err=>{
+            res.send(Response.businessException(err));
+        })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.systemException(err))
     })
+    
 })
 
 

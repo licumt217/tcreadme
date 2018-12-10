@@ -1,0 +1,181 @@
+[2018-12-10T20:07:03.354] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:07:33.666] [INFO] default - [127.0.0.1 POST /user/add 404 53ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:07:50.122] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', newPassword: '4444' }
+[2018-12-10T20:07:50.203] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.err (D:\tjd\tcreadme\dao\dao\UserDao.js:16:28)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-10T20:07:50.210] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 89ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:07:58.560] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', newPassword: '4444' }
+[2018-12-10T20:07:58.562] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.err (D:\tjd\tcreadme\dao\dao\UserDao.js:16:28)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-10T20:07:58.564] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:09:21.296] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:09:24.223] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', de: '4444' }
+[2018-12-10T20:09:24.231] [INFO] default - 1
+[2018-12-10T20:09:24.232] [INFO] default - 2
+[2018-12-10T20:09:24.245] [INFO] default - 新增用户异常！ { ValidationError: User validation failed: department: Path `department` is required.
+    at ValidationError.inspect (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (util.js:400:38)
+    at inspect (util.js:294:10)
+    at Object.format (util.js:223:18)
+    at basicLayout (D:\tjd\tcreadme\node_modules\log4js\lib\layouts.js:69:12)
+    at app (D:\tjd\tcreadme\node_modules\log4js\lib\appenders\dateFile.js:30:19)
+    at categoryAppenders.forEach (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\tjd\tcreadme\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (D:\tjd\tcreadme\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as info] (D:\tjd\tcreadme\node_modules\log4js\lib\logger.js:84:10)
+    at user.save.then.catch.err (D:\tjd\tcreadme\dao\dao\UserDao.js:16:28)
+    at tryCatcher (D:\tjd\tcreadme\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\tjd\tcreadme\node_modules\bluebird\js\release\promise.js:690:18)
+  errors: 
+   { department: 
+      { ValidatorError: Path `department` is required.
+    at new ValidatorError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\validator.js:29:11)
+    at validate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:844:13)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:897:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:853:19)
+    at D:\tjd\tcreadme\node_modules\mongoose\lib\document.js:1904:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `department` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'department',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed',
+  name: 'ValidationError' }
+[2018-12-10T20:09:24.254] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 46ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:10:26.058] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:10:29.183] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', de: '4444' }
+[2018-12-10T20:10:29.184] [INFO] default - 3
+[2018-12-10T20:10:29.185] [INFO] default - null
+[2018-12-10T20:10:29.190] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:10:52.074] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-10T20:11:03.762] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:11:03.796] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 47ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:11:06.490] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:11:06.497] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:11:06.502] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-10T20:11:15.758] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-10T20:11:15.760] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 2ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-10T20:11:15.762] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
