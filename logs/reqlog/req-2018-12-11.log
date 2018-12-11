@@ -1,0 +1,110 @@
+[2018-12-11T14:26:35.631] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:26:42.686] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:26:42.698] [INFO] default - 1
+[2018-12-11T14:26:42.702] [INFO] default - undefined
+[2018-12-11T14:26:42.705] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 57ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:27:16.831] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:27:23.458] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:27:23.471] [INFO] default - 1
+[2018-12-11T14:27:23.475] [INFO] default - 33
+[2018-12-11T14:27:23.476] [INFO] default - undefined
+[2018-12-11T14:27:23.479] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 36ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:30:36.787] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:30:40.506] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:30:40.519] [INFO] default - 1
+[2018-12-11T14:30:40.522] [INFO] default - 2
+[2018-12-11T14:30:40.529] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 38ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:30:40.545] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-11T14:31:16.305] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:31:20.228] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:31:20.244] [INFO] default - 1
+[2018-12-11T14:31:20.247] [INFO] default - 2
+[2018-12-11T14:31:20.254] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 52ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:31:20.265] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-11T14:31:50.126] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:31:53.784] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:31:53.804] [INFO] default - 1
+[2018-12-11T14:31:53.810] [INFO] default - undefined
+[2018-12-11T14:31:53.811] [INFO] default - 2
+[2018-12-11T14:31:53.822] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 104ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:31:53.842] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-11T14:32:21.232] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:32:24.222] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:32:24.236] [INFO] default - 1
+[2018-12-11T14:32:24.240] [INFO] default - 33322
+[2018-12-11T14:32:24.240] [INFO] default - 2
+[2018-12-11T14:32:24.247] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 63ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:32:24.259] [INFO] default - 新增用户异常！ { MongoError: E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:827:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.users index: username_1 dup key: { : "yangjing" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-11T14:33:55.839] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:34:02.546] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:34:02.602] [INFO] default - 33
+[2018-12-11T14:34:02.603] [INFO] default - 用户已存在！
+[2018-12-11T14:34:02.610] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 95ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:34:11.823] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:34:15.822] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:34:22.358] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:34:43.133] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T14:34:47.623] [INFO] default - 新增用户参数： { username: 'yangjing', password: '333', department: '4444' }
+[2018-12-11T14:34:47.635] [INFO] default - 用户已存在！
+[2018-12-11T14:34:47.639] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 38ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:34:52.040] [INFO] default - 新增用户参数： { username: 'yangji22ng', password: '333', department: '4444' }
+[2018-12-11T14:34:52.059] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T14:34:56.409] [INFO] default - 新增用户参数： { username: 'yangji22ng', password: '333', department: '4444' }
+[2018-12-11T14:34:56.414] [INFO] default - 用户已存在！
+[2018-12-11T14:34:56.416] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T15:13:22.166] [INFO] default - 新增用户参数： { username: 'yangji22ng', password: '333', department: '4444' }
+[2018-12-11T15:13:22.170] [INFO] default - 用户已存在！
+[2018-12-11T15:13:22.172] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-11T15:21:02.073] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T15:23:24.208] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T15:26:15.445] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T15:28:32.256] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-11T15:28:56.279] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081

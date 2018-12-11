@@ -39,6 +39,21 @@ let UserDao={
             
         })
     },
+    remove(id){
+        return new Promise((resolve,reject)=>{
+    
+            User.remove({
+                _id:id
+            }).then(data=>{
+                resolve(data)
+            }).catch(err=>{
+                errorMsg="删除用户异常！"
+                logger.info(errorMsg,err)
+                reject(errorMsg)
+            })
+            
+        })
+    },
     
     
     

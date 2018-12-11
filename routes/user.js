@@ -22,18 +22,11 @@ router.post('/add', function (req, res) {
     
     UserDao.find(whereObj).then(data=>{
         if(data && data.length>0){
-            logger.info(1)
-            res.send(Response.businessException("用户已存在！"))
-            return;
-        
+            return Promise.reject("用户已存在！")
         }else{
-            logger.info(3)
-            return new Promise((resolve,reject)=>{
-                resolve();
-            })
+            return Promise.resolve()
         }
     }).then(()=>{
-        logger.info(2)
         let user = new User(req.body);
         
         UserDao.save(user).then(data=>{
@@ -43,7 +36,7 @@ router.post('/add', function (req, res) {
         })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException(err))
+        res.send(Response.businessException(err))
     })
     
 })
@@ -54,30 +47,15 @@ router.post('/remove', function (req, res) {
     
     logger.info("删除用户参数：",req.body)
     
-    let whereObj={
-        username:req.body.username,
-        password:req.body.password
-    };
+    let userId=req.body._id
     
-    
-    User.find(whereObj).then(data=>{
-        
-        if(data && data.length>0){
-    
-            User.remove(whereObj).then(data=>{
-                res.send(Response.success());
-            }).catch(data=>{
-                res.send(Response.businessException("删除用户失败"));
-            })
-            
-        }else{
-    
-            res.send(Response.businessException("未找到对应用户"))
-        }
+    UserDao.remove(userId).then(()=>{
+        res.send(Response.success());
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
+    
 })
 
 // 登录
