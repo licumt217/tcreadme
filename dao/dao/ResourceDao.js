@@ -1,15 +1,15 @@
 const log4js= require('../../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
-let User=require('../../dao/model/user')
-const entityName="用户";
+let Resource=require('../../dao/model/resource')
+const entityName="资源";
 let errorMsg="";
 
-let UserDao={
-    save(user){
+let ResourceDao={
+    save(resource){
         return new Promise((resolve,reject)=>{
-            if(user){
-                user.save().then(data=>{
+            if(resource){
+                resource.save().then(data=>{
                     resolve(data);
                 }).catch(err=>{
                     errorMsg=`新增${entityName}异常！`
@@ -29,7 +29,7 @@ let UserDao={
             if(!whereObj){
                 whereObj={}
             }
-            User.find(whereObj).then(data=>{
+            Resource.find(whereObj).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
@@ -42,7 +42,7 @@ let UserDao={
     remove(id){
         return new Promise((resolve,reject)=>{
     
-            User.remove({
+            Resource.remove({
                 _id:id
             }).then(data=>{
                 resolve(data)
@@ -57,7 +57,7 @@ let UserDao={
     update(whereObj,updateObj){
         return new Promise((resolve,reject)=>{
     
-            User.update(whereObj,updateObj).then(data=>{
+            Resource.update(whereObj,updateObj).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`修改${entityName}信息异常！`
@@ -83,4 +83,4 @@ let UserDao={
 
 
 
-module.exports = UserDao
+module.exports = ResourceDao

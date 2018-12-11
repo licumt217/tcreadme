@@ -4,7 +4,7 @@ const log4js= require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
-let Role=require('../dao/model/role')
+let RoleDao=require('../dao/dao/RoleDao')
 
 
 // 新增
@@ -16,28 +16,32 @@ router.post('/add', function (req, res) {
         name:req.body.name
     };
     
-    let role = new Role(req.body);
-    
-    Role.find(whereObj).then(data=>{
+    RoleDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
             
             res.send(Response.businessException("角色已存在！"))
             
         }else{
-    
-            role.save().then(data=>{
-                
-                res.send(Response.success(data));
-                
-            }).catch(data=>{
-                logger.info("新增角色异常！",data)
-                res.send(Response.systemException());
-            })
+            return Promise.resolve()
+        
         }
+    }).then(()=>{
+        
+        let role = new Role(req.body);
+        
+        RoleDao.save(role).then(data=>{
+        
+            res.send(Response.success(data));
+        
+        }).catch(err=>{
+            logger.info(err)
+            res.send(Response.businessException(err));
+        })
+        
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
@@ -51,24 +55,27 @@ router.post('/remove', function (req, res) {
         name:req.body.name,
     };
     
-    
-    Role.find(whereObj).then(data=>{
+    RoleDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
-            
-            Role.remove(whereObj).then(data=>{
-                res.send(Response.success());
-            }).catch(data=>{
-                res.send(Response.businessException("删除角色失败"));
-            })
+            return Promise.resolve()
             
         }else{
             
             res.send(Response.businessException("未找到对应角色"))
         }
+    }).then(()=>{
+        
+        let id=req.body._id
+    
+        RoleDao.remove(id).then(data=>{
+            res.send(Response.success());
+        }).catch(err=>{
+            res.send(Response.businessException(err));
+        })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
@@ -82,26 +89,29 @@ router.post('/update', function (req, res) {
         name:req.body.originalName,
     };
     
-    let updateObj=JSON.parse(JSON.stringify(req.body));
-    
-    Role.find(whereObj).then(data=>{
+    RoleDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
     
-            Role.update(whereObj,updateObj).then(data=>{
-                res.send(Response.success());
-            }).catch(err=>{
-                logger.info(err)
-                res.send(Response.businessException("修改角色信息失败"))
-            })
+            return Promise.resolve()
             
         }else{
             
             res.send(Response.businessException("未找到对应角色"))
         }
+    }).then(()=>{
+        
+        let updateObj=JSON.parse(JSON.stringify(req.body));
+        
+        RoleDao.update(whereObj,updateObj).then(data=>{
+            res.send(Response.success());
+        }).catch(err=>{
+            logger.info(err)
+            res.send(Response.businessException(err))
+        })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
@@ -110,13 +120,13 @@ router.post('/list', function (req, res) {
     
     logger.info("获取角色列表的参数：",req.body)
     
-    Role.find().then(data=>{
+    RoleDao.find().then(data=>{
         
         res.send(Response.success(data));
         
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 

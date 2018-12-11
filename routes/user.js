@@ -69,37 +69,30 @@ router.post('/login', function (req, res) {
     
     
     
-    User.find(whereObj).then(data=>{
+    UserDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
-    
-            let whereObj={
-                username:req.body.username,
-                password:req.body.password
-            };
-            User.find(whereObj).then(data=>{
-        
-                if(data && data.length>0){
-            
-            
-                    res.send(Response.success());
-            
-                }else{
-            
-                    res.send(Response.businessException("密码不正确！"))
-                }
-            }).catch(err=>{
-                logger.info(err)
-                res.send(Response.systemException())
-            })
-            
+            return Promise.resolve();
         }else{
-    
             res.send(Response.businessException("账号不存在！"))
         }
+    }).then(data=>{
+        whereObj={
+            username:req.body.username,
+            password:req.body.password
+        };
+    
+        UserDao.find(whereObj).then(data=>{
+            if(data && data.length>0){
+                res.send(Response.success());
+            
+            }else{
+                res.send(Response.businessException("密码不正确！"))
+            }
+        })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
@@ -113,28 +106,29 @@ router.post('/update', function (req, res) {
         password:req.body.password,
     };
     
-    let updateObj=JSON.parse(JSON.stringify(req.body));
-    updateObj.password=req.body.newPassword
-    
-    
-    User.find(whereObj).then(data=>{
+    UserDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
-    
-            User.update(whereObj,updateObj).then(data=>{
-                res.send(Response.success());
-            }).catch(err=>{
-                logger.info(err)
-                res.send(Response.businessException("修改用户信息失败"))
-            })
-            
+            return Promise.resolve();
         }else{
-    
             res.send(Response.businessException("未找到对应用户"))
         }
+        
+    }).then(()=>{
+        
+        let updateObj=JSON.parse(JSON.stringify(req.body));
+        updateObj.password=req.body.newPassword
+    
+        UserDao.update(whereObj,updateObj).then(()=>{
+            res.send(Response.success());
+        }).catch(err=>{
+            logger.info(err)
+            res.send(Response.businessException(err))
+        })
+        
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
@@ -143,13 +137,13 @@ router.post('/list', function (req, res) {
     
     logger.info("获取用户列表的参数：",req.body)
     
-    User.find().then(data=>{
+    UserDao.find().then(data=>{
     
         res.send(Response.success(data));
         
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 

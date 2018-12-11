@@ -1,15 +1,15 @@
 const log4js= require('../../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
-let User=require('../../dao/model/user')
-const entityName="用户";
+let RoleResourceRelation=require('../../dao/model/role_resource_relation')
+const entityName="角色资源关系";
 let errorMsg="";
 
-let UserDao={
-    save(user){
+let RoleResourceRelationDao={
+    save(roleResourceRelation){
         return new Promise((resolve,reject)=>{
-            if(user){
-                user.save().then(data=>{
+            if(roleResourceRelation){
+                roleResourceRelation.save().then(data=>{
                     resolve(data);
                 }).catch(err=>{
                     errorMsg=`新增${entityName}异常！`
@@ -29,7 +29,7 @@ let UserDao={
             if(!whereObj){
                 whereObj={}
             }
-            User.find(whereObj).then(data=>{
+            RoleResourceRelation.find(whereObj).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
@@ -42,7 +42,7 @@ let UserDao={
     remove(id){
         return new Promise((resolve,reject)=>{
     
-            User.remove({
+            RoleResourceRelation.remove({
                 _id:id
             }).then(data=>{
                 resolve(data)
@@ -57,7 +57,7 @@ let UserDao={
     update(whereObj,updateObj){
         return new Promise((resolve,reject)=>{
     
-            User.update(whereObj,updateObj).then(data=>{
+            RoleResourceRelation.update(whereObj,updateObj).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`修改${entityName}信息异常！`
@@ -83,4 +83,4 @@ let UserDao={
 
 
 
-module.exports = UserDao
+module.exports = RoleResourceRelationDao
