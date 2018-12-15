@@ -4,6 +4,7 @@ const errlogger = log4js.getLogger('err')
 let User=require('../../dao/model/user')
 const entityName="用户";
 let errorMsg="";
+let mongoose=require('mongoose')
 
 let UserDao={
     save(user){
@@ -41,12 +42,12 @@ let UserDao={
     },
     remove(id){
         return new Promise((resolve,reject)=>{
-    
             User.remove({
-                _id:id
+                _id:mongoose.Types.ObjectId(id)
             }).then(data=>{
                 resolve(data)
             }).catch(err=>{
+                logger.info(22)
                 errorMsg=`删除${entityName}异常！`
                 logger.info(errorMsg,err)
                 reject(errorMsg)

@@ -5,34 +5,31 @@ const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
 let User=require('../dao/model/user')
-let UserRoleRelation=require('../dao/model/user_role_relation')
-let Resource=require('../dao/model/resource')
-
-let RoleResourceRelation=require('../dao/model/role_resource_relation')
-
 let UserDao=require('../dao/dao/UserDao')
+let UserRoleRelationDao=require('../dao/dao/UserRoleRelationDao')
+let ResourceDao=require('../dao/dao/ResourceDao')
+
+let RoleResourceRelationDao=require('../dao/dao/RoleResourceRelationDao')
+const entityName="用户"
+
 // 新增
 router.post('/add', function (req, res) {
     
-    logger.info("新增用户参数：",req.body)
+    logger.info(`新增${entityName}参数：`,req.body)
     
-    let whereObj={
+    UserDao.find({
         username:req.body.username
-    };
-    
-    UserDao.find(whereObj).then(data=>{
+    }).then(data=>{
         if(data && data.length>0){
-            return Promise.reject("用户已存在！")
+            return Promise.reject(`${entityName}已存在！`)
         }else{
             return Promise.resolve()
         }
     }).then(()=>{
         let user = new User(req.body);
         
-        UserDao.save(user).then(data=>{
+        return UserDao.save(user).then(data=>{
             res.send(Response.success(data));
-        },err=>{
-            res.send(Response.businessException(err));
         })
     }).catch(err=>{
         logger.info(err)
@@ -45,7 +42,7 @@ router.post('/add', function (req, res) {
 // 删除
 router.post('/remove', function (req, res) {
     
-    logger.info("删除用户参数：",req.body)
+    logger.info(`删除${entityName}参数：`,req.body)
     
     let userId=req.body._id
     
@@ -61,33 +58,33 @@ router.post('/remove', function (req, res) {
 // 登录
 router.post('/login', function (req, res) {
     
-    logger.info("用户登录参数：",req.body)
+    logger.info(`${entityName}登录参数：`,req.body)
+    
+    let username=req.body.username
     
     let whereObj={
-        username:req.body.username
+        username:username
     };
-    
-    
     
     UserDao.find(whereObj).then(data=>{
         
         if(data && data.length>0){
             return Promise.resolve();
         }else{
-            res.send(Response.businessException("账号不存在！"))
+            return Promise.reject("账号不存在！");
         }
-    }).then(data=>{
+    }).then(()=>{
         whereObj={
-            username:req.body.username,
+            username:username,
             password:req.body.password
         };
     
-        UserDao.find(whereObj).then(data=>{
+        return UserDao.find(whereObj).then(data=>{
             if(data && data.length>0){
                 res.send(Response.success());
             
             }else{
-                res.send(Response.businessException("密码不正确！"))
+                return Promise.reject("密码不正确！")
             }
         })
     }).catch(err=>{
@@ -101,31 +98,12 @@ router.post('/update', function (req, res) {
     
     logger.info("修改用户信息参数：",req.body)
     
-    let whereObj={
-        username:req.body.username,
-        password:req.body.password,
-    };
+    let updateObj=JSON.parse(JSON.stringify(req.body));
     
-    UserDao.find(whereObj).then(data=>{
-        
-        if(data && data.length>0){
-            return Promise.resolve();
-        }else{
-            res.send(Response.businessException("未找到对应用户"))
-        }
-        
-    }).then(()=>{
-        
-        let updateObj=JSON.parse(JSON.stringify(req.body));
-        updateObj.password=req.body.newPassword
-    
-        UserDao.update(whereObj,updateObj).then(()=>{
-            res.send(Response.success());
-        }).catch(err=>{
-            logger.info(err)
-            res.send(Response.businessException(err))
-        })
-        
+    UserDao.update({
+        _id:req.body._id
+    },updateObj).then(()=>{
+        res.send(Response.success());
     }).catch(err=>{
         logger.info(err)
         res.send(Response.businessException(err))
@@ -133,7 +111,7 @@ router.post('/update', function (req, res) {
 })
 
 // 获取用户列表
-router.post('/list', function (req, res) {
+router.get('/list', function (req, res) {
     
     logger.info("获取用户列表的参数：",req.body)
     
@@ -152,76 +130,39 @@ router.post('/list', function (req, res) {
  */
 router.post('/getResourcesByUserId', function (req, res) {
     
-    
-    
     logger.info("根据用户id获取对应的资源列表参数：",req.body)
     
-    
-    let whereObj={
-        userId:req.body.userId,
-    };
-    
-    UserRoleRelation.find(whereObj).then(data=>{
+    UserRoleRelationDao.find({
+        userId:req.body.userId
+    }).then(data=>{
         
-        logger.info("根据角色id获取资源列表的参数：",data)
         let roleIdArray=[];
         data.forEach(item=>{
             roleIdArray.push(item.roleId)
         })
-        whereObj={
+        
+        return RoleResourceRelationDao.find({
             roleId:{$in:roleIdArray}
-        };
-        
-        
-        RoleResourceRelation.find(whereObj).then(data=>{
+        }).then(data=>{
             let resourceIdArray=[];
             data.forEach(item=>{
                 resourceIdArray.push(item.resourceId)
             })
             
-            whereObj={
-                _id:{$in:resourceIdArray}
-            };
-    
-            Resource.find(whereObj).then(data=>{
-                
-                data=JSON.parse(JSON.stringify(data))
-                let firstLevel=[]
-                data.forEach((item)=>{
-                    if(item.parentCode==='0000'){
-                        firstLevel.push(item)
-                    }
-                })
-                
-                for(let i=0;i<firstLevel.length;i++){
-                    
-                    let children=[]
-                    data.forEach((item)=>{
-                        if(item.parentCode===firstLevel[i].code){
-                            children.push(item)
-                        }
-                    })
-                    
-                    
-                    firstLevel[i].children=children;
-                    
-                }
-                
-                
-                res.send(Response.success(firstLevel))
-            }).catch(err=>{
-                logger.info(err)
-                res.send(Response.systemException())
-            })
+            return Promise.resolve(resourceIdArray)
             
-        }).catch(err=>{
-            logger.info(err)
-            res.send(Response.businessException("根据角色id获取资源列表异常"))
         })
         
+    }).then((resourceIdArray)=>{
+    
+        return ResourceDao.findWithLevel({
+            _id:{$in:resourceIdArray}
+        }).then(data=>{
+            res.send(Response.success(data))
+        })
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.businessException("根据用户id获取角色列表异常"))
+        res.send(Response.businessException(err))
     })
     
     

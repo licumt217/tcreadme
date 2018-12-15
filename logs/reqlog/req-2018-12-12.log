@@ -1,0 +1,1466 @@
+[2018-12-12T10:03:01.976] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:04:56.070] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:08:37.076] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:08:55.334] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:10:15.182] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:11:40.225] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:12:49.265] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:14:02.434] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:14:20.715] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:15:59.293] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:17:30.267] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:25:31.657] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:44:54.266] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:51:07.308] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:52:46.212] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T10:53:30.182] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:29:24.078] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:30:33.840] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:31:39.878] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:31:50.058] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:34:42.731] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:40:05.433] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:40:51.164] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:43:30.418] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:43:33.440] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:43:42.405] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:52:03.611] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:53:53.745] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:54:20.733] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:55:49.571] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:56:40.657] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:57:22.721] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:58:00.729] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:58:42.057] [INFO] default - 新增用户参数： { username: 'yangji22ng', password: '333', department: '4444' }
+[2018-12-12T11:58:42.073] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 31ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T11:58:59.937] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T11:59:24.743] [INFO] default - 新增用户参数： { username: 'yangji22ng', password: '333', department: '4444' }
+[2018-12-12T11:59:24.763] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 38ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T11:59:35.896] [INFO] default - 新增用户参数： { username: 'hahaha', password: '333', department: '4444' }
+[2018-12-12T11:59:35.915] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 19ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T11:59:52.588] [INFO] default - 新增用户参数： { username: 'hahaha', password: '333', department: '4444' }
+[2018-12-12T11:59:52.592] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:15.072] [INFO] default - 新增用户参数： { username: 'hahaha2', password: '333', department: '4444' }
+[2018-12-12T12:00:15.077] [INFO] default - [127.0.0.1 POST /tcreadme/user/add 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:37.241] [INFO] default - [127.0.0.1 POST /user/remove 404 2ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:51.742] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:00:51.746] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:53.903] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:00:53.906] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:55.761] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:00:55.763] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:00:57.109] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:00:57.111] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 2ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:02:01.215] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:02:06.474] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:02:06.479] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:03:12.001] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:03:15.811] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:03:15.838] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:03:15.843] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 74ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:03:42.023] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:03:47.396] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:03:47.397] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:03:47.402] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:04:16.970] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:04:27.023] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:04:32.361] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:04:32.364] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:04:32.364] [INFO] default - 5
+[2018-12-12T12:04:32.371] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 41ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:05:09.997] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:05:15.630] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:05:15.631] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:05:15.631] [INFO] default - 5
+[2018-12-12T12:05:15.638] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:05:24.640] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:05:36.214] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:05:36.214] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:05:36.215] [INFO] default - 5
+[2018-12-12T12:05:36.222] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:06:28.011] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:06:33.316] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:06:33.317] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:06:33.317] [INFO] default - 5
+[2018-12-12T12:06:33.318] [INFO] default - >>>>>>
+[2018-12-12T12:06:33.318] [INFO] default - ReferenceError: ObjectId is not defined
+    at Promise (D:\tjd\tcreadme\dao\dao\UserDao.js:46:18)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\UserDao.js:43:16)
+    at D:\tjd\tcreadme\routes\user.js:50:13
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+[2018-12-12T12:06:33.325] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 29ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:08:27.908] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:08:31.904] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:08:31.905] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:08:31.906] [INFO] default - 5
+[2018-12-12T12:08:31.907] [INFO] default - >>>>>>
+[2018-12-12T12:08:31.907] [INFO] default - ReferenceError: mongoose is not defined
+    at Promise (D:\tjd\tcreadme\dao\dao\UserDao.js:47:21)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\UserDao.js:43:16)
+    at D:\tjd\tcreadme\routes\user.js:50:13
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+[2018-12-12T12:08:31.915] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 54ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:08:56.839] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:09:02.295] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:09:02.295] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:09:02.296] [INFO] default - 5
+[2018-12-12T12:09:02.303] [INFO] default - 11
+[2018-12-12T12:09:02.303] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:09:02.308] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 28ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:09:15.691] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:09:15.692] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:09:15.692] [INFO] default - 5
+[2018-12-12T12:09:15.694] [INFO] default - 11
+[2018-12-12T12:09:15.694] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:09:15.696] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:09:16.572] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:09:16.586] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:09:16.586] [INFO] default - 5
+[2018-12-12T12:09:16.588] [INFO] default - 11
+[2018-12-12T12:09:16.589] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:09:16.590] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:09:17.499] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:09:17.500] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:09:17.500] [INFO] default - 5
+[2018-12-12T12:09:17.502] [INFO] default - 11
+[2018-12-12T12:09:17.502] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:09:17.503] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:09:24.823] [INFO] default - 删除用户参数： { _id: '5c1087cf8f8f302620d6c350' }
+[2018-12-12T12:09:24.825] [INFO] default - 5c1087cf8f8f302620d6c350
+[2018-12-12T12:09:24.834] [INFO] default - 5
+[2018-12-12T12:09:24.836] [INFO] default - 11
+[2018-12-12T12:09:24.837] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:09:24.840] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 16ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:10:05.837] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:10:26.116] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2018-12-12T12:10:26.117] [INFO] default - 5c1087a78f8f302620d6c34f
+[2018-12-12T12:10:26.121] [INFO] default - 5
+[2018-12-12T12:10:26.129] [INFO] default - 11
+[2018-12-12T12:10:26.130] [INFO] default - { n: 1, ok: 1 }
+[2018-12-12T12:10:26.134] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 49ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:10:42.151] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2018-12-12T12:10:42.152] [INFO] default - 5c1087a78f8f302620d6c34f
+[2018-12-12T12:10:42.153] [INFO] default - 5
+[2018-12-12T12:10:42.158] [INFO] default - 11
+[2018-12-12T12:10:42.160] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:10:42.166] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 16ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:10:54.680] [INFO] default - 删除用户参数： { _id: '5c1087a78f8f302620d6c34f' }
+[2018-12-12T12:10:54.680] [INFO] default - 5c1087a78f8f302620d6c34f
+[2018-12-12T12:10:54.680] [INFO] default - 5
+[2018-12-12T12:10:54.682] [INFO] default - 11
+[2018-12-12T12:10:54.682] [INFO] default - { n: 0, ok: 1 }
+[2018-12-12T12:10:54.683] [INFO] default - [127.0.0.1 POST /tcreadme/user/remove 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:11:46.860] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T12:11:58.334] [INFO] default - 获取用户列表的参数： {}
+[2018-12-12T12:11:58.355] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 45ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:12:46.247] [INFO] default - [127.0.0.1 POST /user/update 404 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:12:55.229] [INFO] default - 修改用户信息参数： { username: 'liqiangxxxxxxxxx',
+  password: 'xx',
+  _id: '5c04d8571c56017128fd84e7' }
+[2018-12-12T12:12:55.263] [INFO] default - [127.0.0.1 POST /tcreadme/user/update 200 36ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:12:57.531] [INFO] default - 修改用户信息参数： { username: 'liqiangxxxxxxxxx',
+  password: 'xx',
+  _id: '5c04d8571c56017128fd84e7' }
+[2018-12-12T12:12:57.534] [INFO] default - [127.0.0.1 POST /tcreadme/user/update 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T12:13:16.904] [INFO] default - [127.0.0.1 POST /login 404 1ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:45:41.501] [INFO] default - 用户登录参数： { username: 'yangjing', password: '333', newPassword: '4444' }
+[2018-12-12T13:45:41.506] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:45:45.923] [INFO] default - 用户登录参数： { username: 'yangjing', password: '3332', newPassword: '4444' }
+[2018-12-12T13:45:45.926] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:46:04.742] [INFO] default - 用户登录参数： { username: 'yangjin22g', password: '3332', newPassword: '4444' }
+[2018-12-12T13:46:04.744] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:50:38.058] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:52:08.053] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:52:20.743] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:52:20.761] [INFO] default - ReferenceError: utils is not defined
+    at ResourceDao.find.then.data (D:\tjd\tcreadme\dao\dao\ResourceDao.js:130:28)
+    at <anonymous>
+[2018-12-12T13:52:20.766] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 43ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:53:10.136] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:53:26.385] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:53:26.403] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:54:22.200] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:54:26.822] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:54:26.846] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 37ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:55:29.128] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:55:33.158] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:55:39.107] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:55:39.119] [INFO] default - 1
+[2018-12-12T13:55:39.119] [INFO] default - 3
+[2018-12-12T13:55:39.119] [INFO] default - 4
+[2018-12-12T13:55:39.126] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 53ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:55:39.127] [INFO] default - 2
+[2018-12-12T13:56:15.218] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:56:35.023] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:56:35.036] [INFO] default - 1
+[2018-12-12T13:56:35.037] [INFO] default - 3
+[2018-12-12T13:56:35.038] [INFO] default - 4
+[2018-12-12T13:56:35.044] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 35ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:56:35.046] [INFO] default - 22222
+[2018-12-12T13:57:20.136] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:57:25.153] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:57:25.166] [INFO] default - 1
+[2018-12-12T13:57:25.168] [INFO] default - 22222
+[2018-12-12T13:57:25.172] [INFO] default - 3
+[2018-12-12T13:57:25.172] [INFO] default - 4
+[2018-12-12T13:57:25.174] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 57ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:57:41.098] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:57:45.517] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:57:45.535] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T13:59:33.601] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T13:59:37.169] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T13:59:37.198] [INFO] default - 1
+[2018-12-12T13:59:37.200] [INFO] default - 2
+[2018-12-12T13:59:37.205] [INFO] default - 4
+[2018-12-12T13:59:37.210] [INFO] default - 5
+[2018-12-12T13:59:37.214] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 68ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:00:04.575] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:00:08.485] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T14:00:08.498] [INFO] default - 1
+[2018-12-12T14:00:08.498] [INFO] default - 2
+[2018-12-12T14:00:08.504] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 37ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:00:25.260] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:00:50.323] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:01:02.506] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/22fsf2s', parentCode: '0000' }
+[2018-12-12T14:01:02.524] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 34ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:01:06.206] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:01:06.213] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:01:17.027] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:01:17.032] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:01:18.025] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:01:18.029] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:01:36.472] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:01:40.202] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:01:40.220] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 33ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:02:10.573] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:02:14.009] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:02:14.023] [INFO] default - 1
+[2018-12-12T14:02:14.023] [INFO] default - 4
+[2018-12-12T14:02:14.029] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 49ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:03:35.558] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:03:38.655] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:03:38.682] [INFO] default - 1
+[2018-12-12T14:03:38.682] [INFO] default - 4
+[2018-12-12T14:03:38.688] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 51ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:03:59.379] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:04:08.014] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:04:08.028] [INFO] default - 1
+[2018-12-12T14:04:08.028] [INFO] default - 4
+[2018-12-12T14:04:08.033] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 38ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:04:40.757] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:04:44.600] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:04:44.619] [INFO] default - 1
+[2018-12-12T14:04:44.622] [INFO] default - 333
+[2018-12-12T14:04:44.640] [INFO] default - 2
+[2018-12-12T14:04:44.646] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 64ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:04:47.624] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:04:47.630] [INFO] default - 4
+[2018-12-12T14:04:47.633] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:04:48.815] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:04:48.822] [INFO] default - 4
+[2018-12-12T14:04:48.823] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 9ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:05:19.247] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:05:35.715] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:06:01.399] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:06:43.617] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:08:30.513] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:09:34.610] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:09:49.432] [INFO] default - 用户登录参数： { username: 'yangjin22g', password: '3332', newPassword: '4444' }
+[2018-12-12T14:09:49.439] [INFO] default - 账号不存在！
+[2018-12-12T14:09:49.444] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:09:55.038] [INFO] default - 用户登录参数： { username: 'yangjing', password: '3332', newPassword: '4444' }
+[2018-12-12T14:09:55.068] [INFO] default - 密码不正确！
+[2018-12-12T14:09:55.072] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 37ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:09:56.140] [INFO] default - 用户登录参数： { username: 'yangjing', password: '3332', newPassword: '4444' }
+[2018-12-12T14:09:56.143] [INFO] default - 密码不正确！
+[2018-12-12T14:09:56.145] [INFO] default - [127.0.0.1 POST /tcreadme/user/login 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:10:01.667] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:10:01.679] [INFO] default - 资源已存在！
+[2018-12-12T14:10:01.681] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:10:03.436] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf2s', parentCode: '0000' }
+[2018-12-12T14:10:03.440] [INFO] default - 资源已存在！
+[2018-12-12T14:10:03.442] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:10:06.128] [INFO] default - 新增资源参数： { name: '操作手22册22', url: '/2222fsf222s', parentCode: '0000' }
+[2018-12-12T14:10:06.135] [INFO] default - 资源已存在！
+[2018-12-12T14:10:06.136] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:10:08.881] [INFO] default - 新增资源参数： { name: '操作手22册222', url: '/2222fsf222s', parentCode: '0000' }
+[2018-12-12T14:10:08.903] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:10:09.929] [INFO] default - 新增资源参数： { name: '操作手22册222', url: '/2222fsf222s', parentCode: '0000' }
+[2018-12-12T14:10:09.935] [INFO] default - 资源已存在！
+[2018-12-12T14:10:09.936] [INFO] default - [127.0.0.1 POST /tcreadme/resource/add 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:11:42.162] [INFO] default - 删除资源参数： { _id: '操作手22册222' }
+[2018-12-12T14:11:42.173] [INFO] default - 删除资源异常！ { CastError: Cast to ObjectId failed for value "操作手22册222" at path "_id" for model "Resource"
+    at new CastError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\schema\objectid.js:156:13)
+    at ObjectId.SchemaType.applySetters (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:763:12)
+    at ObjectId.SchemaType._castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1166:15)
+    at ObjectId.SchemaType.castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1156:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1135:15)
+    at cast (D:\tjd\tcreadme\node_modules\mongoose\lib\cast.js:306:32)
+    at model.Query.Query.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:4024:12)
+    at model.Query.Query._castConditions (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:1690:10)
+    at model.Query.Query._remove (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:2419:8)
+    at process.nextTick (D:\tjd\tcreadme\node_modules\kareem\index.js:369:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  message: 'Cast to ObjectId failed for value "操作手22册222" at path "_id" for model "Resource"',
+  name: 'CastError',
+  stringValue: '"操作手22册222"',
+  kind: 'ObjectId',
+  value: '操作手22册222',
+  path: '_id',
+  reason: undefined,
+  model: 
+   { [Function: model]
+     hooks: Kareem { _pres: [Object], _posts: [Object] },
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        plugins: [Array] },
+     modelName: 'Resource',
+     model: [Function: model],
+     db: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        '$internalEmitter': [Object],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'tcreadme',
+        host: '0.0.0.0',
+        port: 27017,
+        user: null,
+        pass: null,
+        client: [Object],
+        '$initialConnection': [Object],
+        _events: [Object],
+        _eventsCount: 3,
+        db: [Object] },
+     discriminators: undefined,
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     schema: 
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 3,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array] },
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'resources',
+        collectionName: 'resources',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     Query: { [Function] base: [Object] },
+     '$__insertMany': [Function],
+     '$init': 
+      Promise {
+        _bitField: 33554432,
+        _fulfillmentHandler0: [Function],
+        _rejectionHandler0: [Circular],
+        _promise0: undefined,
+        _receiver0: undefined },
+     '$caught': true } }
+[2018-12-12T14:11:42.185] [INFO] default - 删除资源异常！
+[2018-12-12T14:11:42.187] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 25ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:12:53.688] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:12:53.689] [INFO] default - 删除资源异常！ { CastError: Cast to ObjectId failed for value "xfsfsfs" at path "_id" for model "Resource"
+    at new CastError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\schema\objectid.js:156:13)
+    at ObjectId.SchemaType.applySetters (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:763:12)
+    at ObjectId.SchemaType._castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1166:15)
+    at ObjectId.SchemaType.castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1156:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1135:15)
+    at cast (D:\tjd\tcreadme\node_modules\mongoose\lib\cast.js:306:32)
+    at model.Query.Query.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:4024:12)
+    at model.Query.Query._castConditions (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:1690:10)
+    at model.Query.Query._remove (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:2419:8)
+    at process.nextTick (D:\tjd\tcreadme\node_modules\kareem\index.js:369:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  message: 'Cast to ObjectId failed for value "xfsfsfs" at path "_id" for model "Resource"',
+  name: 'CastError',
+  stringValue: '"xfsfsfs"',
+  kind: 'ObjectId',
+  value: 'xfsfsfs',
+  path: '_id',
+  reason: undefined,
+  model: 
+   { [Function: model]
+     hooks: Kareem { _pres: [Object], _posts: [Object] },
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        plugins: [Array] },
+     modelName: 'Resource',
+     model: [Function: model],
+     db: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        '$internalEmitter': [Object],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'tcreadme',
+        host: '0.0.0.0',
+        port: 27017,
+        user: null,
+        pass: null,
+        client: [Object],
+        '$initialConnection': [Object],
+        _events: [Object],
+        _eventsCount: 3,
+        db: [Object] },
+     discriminators: undefined,
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     schema: 
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 3,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array] },
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'resources',
+        collectionName: 'resources',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     Query: { [Function] base: [Object] },
+     '$__insertMany': [Function],
+     '$init': 
+      Promise {
+        _bitField: 33554432,
+        _fulfillmentHandler0: [Function],
+        _rejectionHandler0: [Circular],
+        _promise0: undefined,
+        _receiver0: undefined },
+     '$caught': true } }
+[2018-12-12T14:12:53.694] [INFO] default - 删除资源异常！
+[2018-12-12T14:12:53.695] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:13:06.113] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:13:06.114] [INFO] default - 删除资源异常！ { CastError: Cast to ObjectId failed for value "xfsfsfs" at path "_id" for model "Resource"
+    at new CastError (D:\tjd\tcreadme\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\schema\objectid.js:156:13)
+    at ObjectId.SchemaType.applySetters (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:763:12)
+    at ObjectId.SchemaType._castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1166:15)
+    at ObjectId.SchemaType.castForQuery (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1156:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\tjd\tcreadme\node_modules\mongoose\lib\schematype.js:1135:15)
+    at cast (D:\tjd\tcreadme\node_modules\mongoose\lib\cast.js:306:32)
+    at model.Query.Query.cast (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:4024:12)
+    at model.Query.Query._castConditions (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:1690:10)
+    at model.Query.Query._remove (D:\tjd\tcreadme\node_modules\mongoose\lib\query.js:2419:8)
+    at process.nextTick (D:\tjd\tcreadme\node_modules\kareem\index.js:369:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  message: 'Cast to ObjectId failed for value "xfsfsfs" at path "_id" for model "Resource"',
+  name: 'CastError',
+  stringValue: '"xfsfsfs"',
+  kind: 'ObjectId',
+  value: 'xfsfsfs',
+  path: '_id',
+  reason: undefined,
+  model: 
+   { [Function: model]
+     hooks: Kareem { _pres: [Object], _posts: [Object] },
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        _pluralize: [Function: pluralize],
+        plugins: [Array] },
+     modelName: 'Resource',
+     model: [Function: model],
+     db: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        options: null,
+        otherDbs: [],
+        relatedDbs: {},
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        '$internalEmitter': [Object],
+        _listening: false,
+        _connectionOptions: [Object],
+        name: 'tcreadme',
+        host: '0.0.0.0',
+        port: 27017,
+        user: null,
+        pass: null,
+        client: [Object],
+        '$initialConnection': [Object],
+        _events: [Object],
+        _eventsCount: 3,
+        db: [Object] },
+     discriminators: undefined,
+     '$appliedMethods': true,
+     '$appliedHooks': true,
+     schema: 
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [],
+        _indexes: [],
+        methods: {},
+        methodOptions: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [],
+        plugins: [Array],
+        '$id': 3,
+        s: [Object],
+        _userProvidedOptions: {},
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [Array] },
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'resources',
+        collectionName: 'resources',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     Query: { [Function] base: [Object] },
+     '$__insertMany': [Function],
+     '$init': 
+      Promise {
+        _bitField: 33554432,
+        _fulfillmentHandler0: [Function],
+        _rejectionHandler0: [Circular],
+        _promise0: undefined,
+        _receiver0: undefined },
+     '$caught': true } }
+[2018-12-12T14:13:06.119] [INFO] default - 删除资源异常！
+[2018-12-12T14:13:06.120] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:14:22.955] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:14:32.528] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:14:32.529] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:14:32.536] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:16:01.842] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:16:14.342] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:16:14.343] [INFO] default - 5
+[2018-12-12T14:16:14.344] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:16:14.350] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:17:27.063] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:17:30.278] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:17:30.280] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:17:30.288] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 39ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:18:13.128] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:18:16.383] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:18:16.384] [INFO] default - ....................
+[2018-12-12T14:18:16.385] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:18:16.393] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 29ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:41:43.523] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:41:49.481] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:41:49.482] [INFO] default - object
+[2018-12-12T14:41:49.483] [INFO] default - ....................
+[2018-12-12T14:41:49.483] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:41:49.489] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 32ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:42:03.074] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:42:06.189] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:42:06.190] [INFO] default - string
+[2018-12-12T14:42:06.191] [INFO] default - ....................
+[2018-12-12T14:42:06.191] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:42:06.198] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 57ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:43:01.838] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:43:05.483] [INFO] default - 删除资源参数： { _id: 'xfsfsfs' }
+[2018-12-12T14:43:05.484] [INFO] default - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:57:11)
+    at ObjectID [as ObjectId] (D:\tjd\tcreadme\node_modules\bson\lib\bson\objectid.js:38:43)
+    at Promise (D:\tjd\tcreadme\dao\dao\ResourceDao.js:85:36)
+    at new Promise (<anonymous>)
+    at Object.remove (D:\tjd\tcreadme\dao\dao\ResourceDao.js:82:16)
+    at D:\tjd\tcreadme\routes\resource.js:57:17
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\tjd\tcreadme\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\tjd\tcreadme\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:317:13)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:275:10)
+    at D:\tjd\tcreadme\node_modules\express\lib\router\index.js:635:15
+    at next (D:\tjd\tcreadme\node_modules\express\lib\router\index.js:260:14)
+[2018-12-12T14:43:05.490] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:44:28.385] [INFO] default - 删除资源参数： { _id: '5c06580f8e45c440c442b260' }
+[2018-12-12T14:44:28.410] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:44:30.411] [INFO] default - 删除资源参数： { _id: '5c06580f8e45c440c442b260' }
+[2018-12-12T14:44:30.423] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 12ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:44:33.289] [INFO] default - 删除资源参数： { _id: '5c06580f8e45c440c442b260' }
+[2018-12-12T14:44:33.291] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 2ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:44:44.688] [INFO] default - list资源参数： {}
+[2018-12-12T14:44:44.715] [INFO] default - [127.0.0.1 POST /tcreadme/resource/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:44:51.611] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:44:51.616] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:45:36.123] [INFO] default - 删除资源参数： { _id: '5c06580f8e45c440c442b260' }
+[2018-12-12T14:45:36.128] [INFO] default - [127.0.0.1 POST /tcreadme/resource/remove 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:46:13.483] [INFO] default - 修改资源信息参数： { _id: '5c06580f8e45c440c442b260' }
+[2018-12-12T14:46:13.486] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:46:45.378] [INFO] default - 修改资源信息参数： { _id: '5c0658308e45c440c442b263', name: '人员管理xxx' }
+[2018-12-12T14:46:45.388] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 9ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:46:48.229] [INFO] default - 修改资源信息参数： { _id: '5c0658308e45c440c442b263', name: '人员管理xxx' }
+[2018-12-12T14:46:48.234] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:47:24.404] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:47:47.570] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:50:11.335] [INFO] default - 修改资源信息参数： { _id: '5c0658208e45c440c442b261', code: '00000002' }
+[2018-12-12T14:50:11.365] [INFO] default - 修改资源信息异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: code_1 dup key: { : "00000002" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.update (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:1370:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: code_1 dup key: { : "00000002" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-12T14:50:11.371] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 73ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:50:25.368] [INFO] default - 修改资源信息参数： { _id: '5c0658208e45c440c442b261', code: '00000002' }
+[2018-12-12T14:50:25.371] [INFO] default - 修改资源信息异常！ { MongoError: E11000 duplicate key error collection: tcreadme.resources index: code_1 dup key: { : "00000002" }
+    at Function.create (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.update (D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb\lib\operations\collection_ops.js:1370:39)
+    at D:\tjd\tcreadme\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: tcreadme.resources index: code_1 dup key: { : "00000002" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2018-12-12T14:50:25.373] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:50:56.315] [INFO] default - 修改资源信息参数： { _id: '5c0658208e45c440c442b261', parentCode: '00000002' }
+[2018-12-12T14:50:56.319] [INFO] default - [127.0.0.1 POST /tcreadme/resource/update 200 4ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:51:00.445] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:51:00.452] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:52:27.826] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:52:30.006] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:52:30.025] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 37ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:55:35.852] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:55:37.791] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:55:37.810] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 35ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:55:57.881] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:56:19.892] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:56:23.935] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:56:23.956] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 35ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:56:52.931] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:57:14.116] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T14:57:21.404] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:57:21.414] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T14:57:21.415] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理xxx',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T14:57:21.423] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 33ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:59:04.041] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T14:59:04.045] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T14:59:04.046] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理xxx',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T14:59:04.050] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T14:59:58.461] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:00:02.345] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T15:00:02.360] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:00:02.360] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658288e45c440c442b262,
+    name: '角色管理',
+    url: '/32232xxx',
+    code: '000000010002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '00000001',
+    _id: 5c0658308e45c440c442b263,
+    name: '人员管理xxx',
+    url: '/3223232xxx',
+    code: '000000010003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T15:00:02.365] [INFO] default - ........
+[2018-12-12T15:00:02.366] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T15:00:02.375] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 49ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:00:55.825] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:00:55.835] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:00:55.836] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:00:55.837] [INFO] default - ........
+[2018-12-12T15:00:55.837] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:00:55.840] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:02:44.315] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:02:49.541] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:02:49.562] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:02:49.562] [INFO] default - 555
+[2018-12-12T15:02:49.563] [INFO] default - 555
+[2018-12-12T15:02:49.563] [INFO] default - ........
+[2018-12-12T15:02:49.571] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 52ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:03:00.329] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:03:02.897] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:03:02.914] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:03:02.914] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:03:02.917] [INFO] default - []
+[2018-12-12T15:03:02.921] [INFO] default - ........
+[2018-12-12T15:03:02.927] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 60ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:03:56.382] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:05:20.618] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:05:20.637] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:05:20.638] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:05:20.639] [INFO] default - []
+[2018-12-12T15:05:20.639] [INFO] default - ........
+[2018-12-12T15:05:20.640] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:05:20.646] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 45ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:06:41.943] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:06:41.951] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:06:41.951] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:06:41.952] [INFO] default - []
+[2018-12-12T15:06:41.952] [INFO] default - ........
+[2018-12-12T15:06:41.953] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:06:41.954] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 11ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:06:46.436] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T15:06:46.439] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:06:46.439] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:06:46.440] [INFO] default - []
+[2018-12-12T15:06:46.440] [INFO] default - []
+[2018-12-12T15:06:46.441] [INFO] default - []
+[2018-12-12T15:06:46.442] [INFO] default - []
+[2018-12-12T15:06:46.442] [INFO] default - []
+[2018-12-12T15:06:46.443] [INFO] default - ........
+[2018-12-12T15:06:46.443] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T15:06:46.447] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 12ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:06:57.220] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:06:57.224] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:06:57.225] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:06:57.226] [INFO] default - []
+[2018-12-12T15:06:57.226] [INFO] default - ........
+[2018-12-12T15:06:57.226] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:06:57.229] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 10ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:07:01.125] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T15:07:01.128] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:07:01.128] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:07:01.130] [INFO] default - []
+[2018-12-12T15:07:01.131] [INFO] default - []
+[2018-12-12T15:07:01.131] [INFO] default - []
+[2018-12-12T15:07:01.132] [INFO] default - []
+[2018-12-12T15:07:01.132] [INFO] default - []
+[2018-12-12T15:07:01.133] [INFO] default - ........
+[2018-12-12T15:07:01.133] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0b9ef868ca013088f10ffe,
+    name: '操作手册2',
+    url: '/22f22sfs',
+    code: '00000004',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0c8f0e68ca013088f11002,
+    name: '操作手册22',
+    url: '/22fsf2s',
+    code: '00000005',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a4fca814ab2920259a37,
+    name: '操作手22册22',
+    url: '/2222fsf2s',
+    code: '00000006',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c10a640a42e6240a079eb94,
+    name: '操作手22册222',
+    url: '/2222fsf222s',
+    code: '00000007',
+    __v: 0 } ]
+[2018-12-12T15:07:01.135] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 11ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:07:03.699] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:07:03.710] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:07:03.711] [INFO] default - [ { state: 0,
+    parentCode: '00000002',
+    _id: 5c0658208e45c440c442b261,
+    name: '资源管理',
+    url: '/3232xxx',
+    code: '000000010001',
+    __v: 0 } ]
+[2018-12-12T15:07:03.712] [INFO] default - []
+[2018-12-12T15:07:03.713] [INFO] default - ........
+[2018-12-12T15:07:03.714] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f07aa87a73fce6b6cf,
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0 },
+  { state: 0,
+    parentCode: '0000',
+    _id: 5c0660f97aa87a73fce6b6d0,
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0 } ]
+[2018-12-12T15:07:03.716] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 17ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:08:18.406] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:08:21.132] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:08:21.151] [INFO] default - >>>>>>>>>>>>>>>>:
+[2018-12-12T15:08:21.152] [INFO] default - ........
+[2018-12-12T15:08:21.152] [INFO] default - [ { state: 0,
+    parentCode: '0000',
+    _id: '5c0660f07aa87a73fce6b6cf',
+    name: '技术文档',
+    url: '/22',
+    code: '00000002',
+    __v: 0,
+    children: [ [Object] ] },
+  { state: 0,
+    parentCode: '0000',
+    _id: '5c0660f97aa87a73fce6b6d0',
+    name: '操作手册',
+    url: '/22fsfs',
+    code: '00000003',
+    __v: 0,
+    children: [] } ]
+[2018-12-12T15:08:21.158] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 42ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:09:17.410] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:10:07.534] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-12T15:10:11.400] [INFO] default - 根据用户id获取对应的资源列表参数： { userId: '5c04d8571c56017128fd84e7' }
+[2018-12-12T15:10:11.422] [INFO] default - [127.0.0.1 POST /tcreadme/user/getResourcesByUserId 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:10:17.425] [INFO] default - listByLevel资源参数： {}
+[2018-12-12T15:10:17.443] [INFO] default - [127.0.0.1 POST /tcreadme/resource/listByLevel 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-12T15:35:01.152] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081

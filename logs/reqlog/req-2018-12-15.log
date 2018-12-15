@@ -1,0 +1,19 @@
+[2018-12-15T10:58:36.893] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-15T10:58:57.715] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T10:58:57.743] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 49ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-15T11:00:21.409] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-15T11:00:58.548] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 404 3ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-15T11:01:03.350] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T11:01:03.372] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 200 49ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-15T11:01:29.053] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-15T11:01:33.026] [INFO] default - [127.0.0.1 POST /tcreadme/user/list 404 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-15T11:01:36.351] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T11:01:36.369] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-15T11:01:57.840] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T11:01:57.847] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36]
+[2018-12-15T11:01:58.005] [INFO] default - [127.0.0.1 GET /favicon.ico 404 2ms][http://localhost:8081/tcreadme/user/list HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36]
+[2018-12-15T11:02:04.188] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T11:02:04.194] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36]
+[2018-12-15T11:02:08.997] [INFO] default - 获取用户列表的参数： {}
+[2018-12-15T11:02:09.004] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36]
+[2018-12-15T11:02:09.128] [INFO] default - [127.0.0.1 GET /favicon.ico 404 1ms][http://localhost:8081/tcreadme/user/list HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36]

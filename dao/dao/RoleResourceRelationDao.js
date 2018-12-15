@@ -23,6 +23,23 @@ let RoleResourceRelationDao={
             }
         })
     },
+    saveMany(roleResourceRelationArray){
+        return new Promise((resolve,reject)=>{
+            if(roleResourceRelationArray){
+                RoleResourceRelation.collection.insert(roleResourceRelationArray).then(data=>{
+                    resolve(data);
+                }).catch(err=>{
+                    errorMsg=`新增${entityName}异常！`
+                    logger.info(errorMsg,err)
+                    reject(errorMsg)
+                })
+            }else{
+                errorMsg=`批量新增${entityName}不能为空！`
+                logger.info(errorMsg)
+                reject(errorMsg)
+            }
+        })
+    },
     find(whereObj){
         return new Promise((resolve,reject)=>{
             
@@ -52,6 +69,21 @@ let RoleResourceRelationDao={
                 reject(errorMsg)
             })
             
+        })
+    },
+    removeMany(whereObj){
+        return new Promise((resolve,reject)=>{
+            if(whereObj){
+                RoleResourceRelation.deleteMany(whereObj).then(()=>{
+                    resolve()
+                }).catch(err=>{
+                    errorMsg=`删除${entityName}异常！`
+                    logger.info(err)
+                    reject(errorMsg)
+                })
+            }else{
+                resolve()
+            }
         })
     },
     update(whereObj,updateObj){

@@ -5,18 +5,11 @@ let fs = require("fs");
 let path = require("path");
 let bodyParser = require('body-parser');
 let multer  = require('multer');
-const projectName='tcreadme'
 
 const log4js= require('./config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
-
-const indexRouter = require('./routes/index');
-const userRouter = require('./routes/user');
-const uploadRouter = require('./routes/upload');
-const resourceRouter = require('./routes/resource');
-const roleRouter = require('./routes/role');
-const roleResourceRelationRouter = require('./routes/role_resource_relation');
-const userRoleRelationRouter = require('./routes/user_role_relation');
+const routeConfig= require('./config/route-config')
+const crosConfig=  require('./config/cros-config')
 
 
 
@@ -24,14 +17,7 @@ const userRoleRelationRouter = require('./routes/user_role_relation');
 let app = express();
 
 //设置允许跨域访问.
-app.all('*', function (req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
-    //Access-Control-Allow-Headers ,可根据浏览器的F12查看,把对应的粘贴在这里就行
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
-    res.header('Access-Control-Allow-Methods', '*');
-    res.header('Content-Type', 'application/json;charset=utf-8');
-    next();
-});
+crosConfig.init(app);
 
 app.use(express.static('public'));
 log4js.useLogger(app,logger)
@@ -43,14 +29,8 @@ app.use(bodyParser.urlencoded({            //此项必须在 bodyParser.json 下
 
 multer({dest:'uploads/'});
 
-
-app.use(`/${projectName}`, indexRouter);
-app.use(`/${projectName}/user`, userRouter);
-app.use(`/${projectName}/upload`, uploadRouter);
-app.use(`/${projectName}/resource`, resourceRouter);
-app.use(`/${projectName}/role`, roleRouter);
-app.use(`/${projectName}/roleResourceRelation`, roleResourceRelationRouter);
-app.use(`/${projectName}/userRoleRelation`, userRoleRelationRouter);
+//设置路由信息
+routeConfig.useRouter(app);
 
 
 

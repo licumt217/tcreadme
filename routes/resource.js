@@ -4,142 +4,129 @@ const log4js= require('../config/log-config')
 const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
-const utils=require('../assets/utils')
 let Resource=require('../dao/model/resource')
-
+let ResourceDao=require('../dao/dao/ResourceDao')
+const entityName='资源'
 
 
 // 新增
 router.post('/add', function (req, res) {
     
-    logger.info("新增资源参数：",req.body)
+    logger.info(`新增${entityName}参数：`,req.body)
     
-    if(!req.body.parentCode){
-        req.body.parentCode='0000'
-    }
-    
-    autoGetCode(req.body.parentCode).then(code=>{
-        req.body.code=code
-        let resource = new Resource(req.body);
+    ResourceDao.autoGetCode(req.body.parentCode).then(code=>{
+        return Promise.resolve(code)
+    }).then(data=>{
+        req.body.code=data
         //先判断是否有根节点，没有的话先创建
-        Resource.find({
+        let whereObj={
             $or : [ //多条件，数组
                 {name : req.body.name},
                 {url :req.body.url},
                 {code :req.body.code}
             ]
-        }).then(data=>{
-        
+        };
+        return ResourceDao.find(whereObj).then(data=>{
             if(data && data.length>0){
-                res.send(Response.businessException("资源已存在！"))
+                return Promise.reject(`${entityName}已存在！`)
             }else{
-                resource.save().then(data=>{
-                    res.send(Response.success(data))
-                
-                }).catch(data=>{
-                    logger.info("新增资源异常！",data)
-                    res.send(Response.systemException());
-                })
+                return Promise.resolve();
             }
-        }).catch(err=>{
-            logger.info(err)
-            res.send(Response.systemException())
         })
+    }).then(()=>{
+        let resource = new Resource(req.body);
+        return ResourceDao.save(resource).then(data=>{
+            res.send(Response.success(data))
+        
+        })
+    }).catch(err=>{
+        logger.info(err)
+        res.send(Response.businessException(err));
     })
     
 })
 
+
+// 删除
+router.post('/remove', function (req, res) {
+    
+    logger.info(`删除${entityName}参数：`,req.body)
+    
+    let id=req.body._id
+    
+    ResourceDao.remove(id).then(data=>{
+        res.send(Response.success());
+    }).catch(err=>{
+        logger.info(err)
+        err=typeof err==='object'?"删除资源异常":err
+        res.send(Response.businessException(err));
+    })
+})
+
+// 修改资源信息
+router.post('/update', function (req, res) {
+    
+    logger.info(`修改${entityName}信息参数：`,req.body)
+    
+    let whereObj={
+        _id:req.body._id,
+    };
+    
+    ResourceDao.find(whereObj).then(data=>{
+        
+        if(data && data.length>0){
+            
+            return Promise.resolve()
+            
+        }else{
+            
+            res.send(Response.businessException(`未找到对应${entityName}"`))
+        }
+    }).then(()=>{
+        
+        let updateObj=JSON.parse(JSON.stringify(req.body));
+    
+        ResourceDao.update(whereObj,updateObj).then(data=>{
+            res.send(Response.success());
+        }).catch(err=>{
+            res.send(Response.businessException(err))
+        })
+    }).catch(err=>{
+        logger.info(err)
+        err=typeof err==='object'?"更新资源异常":err
+        res.send(Response.businessException(err))
+    })
+})
+
 router.post('/list', function (req, res) {
     
-    logger.info("list资源参数：",req.body)
+    logger.info(`list${entityName}参数：`,req.body)
     
-    Resource.find().then(data=>{
+    ResourceDao.find().then(data=>{
         
         res.send(Response.success(data))
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        err=typeof err==='object'?"查询资源列表异常":err
+        res.send(Response.businessException(err))
     })
 })
 
 router.post('/listByLevel', function (req, res) {
     
-    logger.info("list资源参数：",req.body)
+    logger.info(`listByLevel${entityName}参数：`,req.body)
     
-    Resource.find().then(data=>{
-        data=JSON.parse(JSON.stringify(data))
-        let firstLevel=[]
-        data.forEach((item)=>{
-            if(item.parentCode==='0000'){
-                firstLevel.push(item)
-            }
-        })
+    ResourceDao.findWithLevel().then(data=>{
         
-        for(let i=0;i<firstLevel.length;i++){
-            
-            let children=[]
-            data.forEach((item)=>{
-                if(item.parentCode===firstLevel[i].code){
-                    children.push(item)
-                }
-            })
-            
-            
-            firstLevel[i].children=children;
-            
-        }
-    
-        
-        res.send(Response.success(firstLevel))
+        res.send(Response.success(data))
     }).catch(err=>{
         logger.info(err)
-        res.send(Response.systemException())
+        res.send(Response.businessException(err))
     })
 })
 
 
 
-
-
-// -------------------------------------------------------------------------
-// 本路由工具方法
-
-/**
- * 根据父节点的code自动生成子集资源的code，按顺序+1
- * @param parentCode
- * @returns {Promise}
- */
-function autoGetCode(parentCode) {
-    
-    return new Promise(function(resove,reject){
-        //先判断此父节点下是否有子元素，没有的话
-        Resource.find({
-            parentCode:parentCode
-        }).then(data=>{
-            
-            if(data && data.length>0){
-                let codeArray=data.map(item=>{
-                    return Number(item.code);
-                })
-                
-                let originalLen=data[0].code.length;
-                let maxCode=String(Math.max.apply( Math, codeArray )+1);
-                
-                resove(utils.fixZero(originalLen,maxCode))
-                
-                
-            }else{
-                resove(parentCode+'0001')
-            }
-            
-        }).catch(err=>{
-            logger.info(err)
-            reject(Response.systemException())
-        })
-    })
-    
-    
-}
 
 
 
