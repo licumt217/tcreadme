@@ -1,0 +1,567 @@
+[2018-12-16T11:47:08.410] [INFO] default - redis授权成功
+[2018-12-16T11:47:08.412] [INFO] default - redis准备成功
+[2018-12-16T11:47:08.418] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:47:17.071] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:47:17.091] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:50:11.615] [INFO] default - ...........
+[2018-12-16T11:50:12.419] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:50:12.425] [INFO] default - redis授权成功
+[2018-12-16T11:50:12.427] [INFO] default - redis准备成功
+[2018-12-16T11:51:01.355] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:51:09.815] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:51:22.996] [INFO] default - ...........
+[2018-12-16T11:51:23.727] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:51:23.736] [INFO] default - redis授权成功
+[2018-12-16T11:51:23.738] [INFO] default - redis准备成功
+[2018-12-16T11:54:02.987] [INFO] default - ...........
+[2018-12-16T11:54:03.858] [INFO] default - redis授权成功
+[2018-12-16T11:54:03.861] [INFO] default - redis准备成功
+[2018-12-16T11:54:03.885] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:54:22.155] [INFO] default - ...........
+[2018-12-16T11:54:22.875] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:54:22.904] [INFO] default - redis授权成功
+[2018-12-16T11:54:22.906] [INFO] default - redis准备成功
+[2018-12-16T11:54:28.429] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:54:28.451] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:56:10.170] [INFO] default - ...........
+[2018-12-16T11:56:10.914] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:56:10.936] [INFO] default - redis授权成功
+[2018-12-16T11:56:10.938] [INFO] default - redis准备成功
+[2018-12-16T11:56:24.366] [INFO] default - ...........
+[2018-12-16T11:56:25.281] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:56:25.298] [INFO] default - redis授权成功
+[2018-12-16T11:56:25.300] [INFO] default - redis准备成功
+[2018-12-16T11:56:32.274] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:56:32.294] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:56:32.297] [INFO] default - OK
+[2018-12-16T11:56:42.301] [INFO] default - ...........
+[2018-12-16T11:56:43.056] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:56:43.071] [INFO] default - redis授权成功
+[2018-12-16T11:56:43.073] [INFO] default - redis准备成功
+[2018-12-16T11:56:59.205] [INFO] default - ...........
+[2018-12-16T11:56:59.954] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:56:59.969] [INFO] default - redis授权成功
+[2018-12-16T11:56:59.971] [INFO] default - redis准备成功
+[2018-12-16T11:57:09.403] [INFO] default - ...........
+[2018-12-16T11:57:10.184] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:57:10.196] [INFO] default - redis授权成功
+[2018-12-16T11:57:10.198] [INFO] default - redis准备成功
+[2018-12-16T11:57:34.612] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:57:34.640] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:58:35.466] [INFO] default - ...........
+[2018-12-16T11:58:36.357] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:58:36.366] [INFO] default - redis授权成功
+[2018-12-16T11:58:36.371] [INFO] default - redis准备成功
+[2018-12-16T11:58:40.325] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:58:40.351] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:59:23.387] [INFO] default - ...........
+[2018-12-16T11:59:24.267] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T11:59:24.272] [INFO] default - redis授权成功
+[2018-12-16T11:59:24.280] [INFO] default - redis准备成功
+[2018-12-16T11:59:27.084] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T11:59:27.104] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T11:59:27.109] [INFO] default - redis get value:20
+[2018-12-16T11:59:27.109] [INFO] default - redis get value:20
+[2018-12-16T12:00:01.424] [INFO] default - ...........
+[2018-12-16T12:00:02.253] [INFO] default - redis授权成功
+[2018-12-16T12:00:02.257] [INFO] default - redis准备成功
+[2018-12-16T12:00:02.265] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:00:40.416] [INFO] default - ...........
+[2018-12-16T12:00:41.147] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:00:41.154] [INFO] default - redis授权成功
+[2018-12-16T12:00:41.156] [INFO] default - redis准备成功
+[2018-12-16T12:00:54.621] [INFO] default - ...........
+[2018-12-16T12:00:55.399] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:00:55.408] [INFO] default - redis授权成功
+[2018-12-16T12:00:55.410] [INFO] default - redis准备成功
+[2018-12-16T12:00:58.630] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:00:58.651] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 21ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:00:58.653] [INFO] default - redis get by key:m,return value:20
+[2018-12-16T12:00:58.654] [INFO] default - redis set success!key:m,value:20
+[2018-12-16T12:00:58.654] [INFO] default - redis get by key:m,return value:20
+[2018-12-16T12:01:29.526] [INFO] default - ...........
+[2018-12-16T12:01:30.595] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:01:30.604] [INFO] default - redis授权成功
+[2018-12-16T12:01:30.611] [INFO] default - redis准备成功
+[2018-12-16T12:01:35.209] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:01:35.236] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:01:35.237] [INFO] default - redis get by key:m,return value:20
+[2018-12-16T12:01:35.238] [INFO] default - redis set success!key:m,value:22
+[2018-12-16T12:01:35.238] [INFO] default - redis get by key:m,return value:22
+[2018-12-16T12:05:46.524] [INFO] default - ...........
+[2018-12-16T12:05:47.389] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:05:47.406] [INFO] default - redis授权成功
+[2018-12-16T12:05:47.408] [INFO] default - redis准备成功
+[2018-12-16T12:06:56.564] [INFO] default - ...........
+[2018-12-16T12:06:57.354] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:06:57.363] [INFO] default - redis授权成功
+[2018-12-16T12:06:57.365] [INFO] default - redis准备成功
+[2018-12-16T12:07:36.788] [INFO] default - ...........
+[2018-12-16T12:07:37.457] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:07:37.468] [INFO] default - redis授权成功
+[2018-12-16T12:07:37.470] [INFO] default - redis准备成功
+[2018-12-16T12:08:40.513] [INFO] default - ...........
+[2018-12-16T12:08:41.415] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:08:41.423] [INFO] default - redis授权成功
+[2018-12-16T12:08:41.425] [INFO] default - redis准备成功
+[2018-12-16T12:08:59.578] [INFO] default - ...........
+[2018-12-16T12:09:00.555] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:09:00.572] [INFO] default - redis授权成功
+[2018-12-16T12:09:00.574] [INFO] default - redis准备成功
+[2018-12-16T12:09:19.096] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:09:19.116] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:09:19.117] [INFO] default - redis hget success!hashkey:user,key:name,value:null
+[2018-12-16T12:09:19.118] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:09:19.119] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:09:19.119] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:09:19.119] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:12:34.052] [INFO] default - ...........
+[2018-12-16T12:12:34.749] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:12:34.761] [INFO] default - redis授权成功
+[2018-12-16T12:12:34.763] [INFO] default - redis准备成功
+[2018-12-16T12:12:44.604] [INFO] default - ...........
+[2018-12-16T12:12:45.316] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:12:45.325] [INFO] default - redis授权成功
+[2018-12-16T12:12:45.327] [INFO] default - redis准备成功
+[2018-12-16T12:12:54.917] [INFO] default - ...........
+[2018-12-16T12:12:55.689] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:12:55.698] [INFO] default - redis授权成功
+[2018-12-16T12:12:55.699] [INFO] default - redis准备成功
+[2018-12-16T12:12:58.828] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:12:58.847] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 19ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:12:58.849] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:12:58.857] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:12:58.865] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:12:58.865] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:12:58.866] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:12:58.872] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:12:58.873] [INFO] default - redis hgetall success!hashkey:user,value:[object Object]
+[2018-12-16T12:13:27.733] [INFO] default - ...........
+[2018-12-16T12:13:28.538] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:13:28.558] [INFO] default - redis授权成功
+[2018-12-16T12:13:28.562] [INFO] default - redis准备成功
+[2018-12-16T12:13:31.899] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:13:31.900] [INFO] default - Promise { <pending> }
+[2018-12-16T12:13:31.925] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:13:31.939] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:13:31.942] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:13:31.944] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:13:31.945] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:13:31.958] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:13:31.958] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:13:31.964] [INFO] default - redis hgetall success!hashkey:user,value:[object Object]
+[2018-12-16T12:13:58.757] [INFO] default - ...........
+[2018-12-16T12:13:59.499] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:13:59.512] [INFO] default - redis授权成功
+[2018-12-16T12:13:59.514] [INFO] default - redis准备成功
+[2018-12-16T12:14:02.824] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:14:02.847] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:14:02.848] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:14:02.849] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:14:02.850] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:14:02.851] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:14:02.852] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:14:02.852] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:14:02.854] [INFO] default - redis hgetall success!hashkey:user,value:[object Object]
+[2018-12-16T12:14:02.855] [INFO] default - { name: 'liqiang', age: '18' }
+[2018-12-16T12:15:01.885] [INFO] default - ...........
+[2018-12-16T12:15:02.937] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:15:02.958] [INFO] default - redis授权成功
+[2018-12-16T12:15:02.977] [INFO] default - redis准备成功
+[2018-12-16T12:15:04.893] [INFO] default - ...........
+[2018-12-16T12:15:05.727] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:15:05.742] [INFO] default - redis授权成功
+[2018-12-16T12:15:05.744] [INFO] default - redis准备成功
+[2018-12-16T12:18:22.867] [INFO] default - ...........
+[2018-12-16T12:18:23.577] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:18:23.588] [INFO] default - redis授权成功
+[2018-12-16T12:18:23.590] [INFO] default - redis准备成功
+[2018-12-16T12:18:44.988] [INFO] default - ...........
+[2018-12-16T12:18:45.736] [INFO] default - redis授权成功
+[2018-12-16T12:18:45.737] [INFO] default - redis准备成功
+[2018-12-16T12:18:45.747] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:19:28.937] [INFO] default - ...........
+[2018-12-16T12:19:29.728] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:19:29.734] [INFO] default - redis授权成功
+[2018-12-16T12:19:29.737] [INFO] default - redis准备成功
+[2018-12-16T12:19:34.094] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:19:34.114] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 19ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:19:34.118] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:34.124] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:34.124] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:19:34.125] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:19:34.125] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:34.125] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:19:34.125] [INFO] default - redis hmset success!hashkey:boss,values:place,caizhi,xingbie,nan
+[2018-12-16T12:19:34.126] [INFO] default - redis hgetall success!hashkey:user,value:[object Object]
+[2018-12-16T12:19:34.126] [INFO] default - { name: 'liqiang', age: '18' }
+[2018-12-16T12:19:50.029] [INFO] default - ...........
+[2018-12-16T12:19:51.079] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:19:51.082] [INFO] default - redis授权成功
+[2018-12-16T12:19:51.083] [INFO] default - redis准备成功
+[2018-12-16T12:19:53.765] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:19:53.785] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:53.786] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:53.787] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:19:53.787] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:19:53.788] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:19:53.788] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:19:53.789] [INFO] default - redis hmset success!hashkey:boss,values:place,caizhi,xingbie,nan
+[2018-12-16T12:19:53.790] [INFO] default - redis hgetall success!hashkey:boss,value:[object Object]
+[2018-12-16T12:19:53.791] [INFO] default - { name: 'liqiang2', place: 'caizhi', xingbie: 'nan' }
+[2018-12-16T12:19:53.842] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 75ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:20:08.997] [INFO] default - ...........
+[2018-12-16T12:20:09.720] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:20:09.732] [INFO] default - redis授权成功
+[2018-12-16T12:20:09.733] [INFO] default - redis准备成功
+[2018-12-16T12:20:13.286] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:20:13.313] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:20:13.320] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:20:13.329] [INFO] default - redis hset success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:20:13.335] [INFO] default - redis hset success!hashkey:user,key:age,value:18
+[2018-12-16T12:20:13.337] [INFO] default - redis hset success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:20:13.338] [INFO] default - redis hget success!hashkey:user,key:name,value:liqiang
+[2018-12-16T12:20:13.340] [INFO] default - redis hget success!hashkey:boss,key:name,value:liqiang2
+[2018-12-16T12:20:13.347] [INFO] default - redis hmset success!hashkey:boss,values:place,caizhi,xingbie,nan
+[2018-12-16T12:20:13.347] [INFO] default - redis hgetall success!hashkey:boss,value:[object Object]
+[2018-12-16T12:20:13.348] [INFO] default - .........
+[2018-12-16T12:20:13.349] [INFO] default - { name: 'liqiang2', place: 'caizhi', xingbie: 'nan' }
+[2018-12-16T12:29:09.055] [INFO] default - ...........
+[2018-12-16T12:29:10.748] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:29:10.760] [INFO] default - redis授权成功
+[2018-12-16T12:29:10.761] [INFO] default - redis准备成功
+[2018-12-16T12:29:31.599] [INFO] default - ...........
+[2018-12-16T12:29:32.571] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:29:32.584] [INFO] default - redis授权成功
+[2018-12-16T12:29:32.585] [INFO] default - redis准备成功
+[2018-12-16T12:29:44.809] [INFO] default - ...........
+[2018-12-16T12:29:45.512] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:29:45.520] [INFO] default - redis授权成功
+[2018-12-16T12:29:45.523] [INFO] default - redis准备成功
+[2018-12-16T12:30:25.546] [INFO] default - ...........
+[2018-12-16T12:30:26.270] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:30:26.279] [INFO] default - redis授权成功
+[2018-12-16T12:30:26.280] [INFO] default - redis准备成功
+[2018-12-16T12:30:33.307] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:30:33.329] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:30:33.334] [INFO] default - redis hgetall error { ReplyError: ERR wrong number of arguments for 'keys' command
+    at parseError (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:193:12)
+    at parseType (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:303:14) command: 'KEYS', code: 'ERR' }
+[2018-12-16T12:31:30.837] [INFO] default - ...........
+[2018-12-16T12:31:31.932] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:31:31.943] [INFO] default - redis授权成功
+[2018-12-16T12:31:31.945] [INFO] default - redis准备成功
+[2018-12-16T12:31:35.676] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:31:35.696] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:31:35.698] [INFO] default - [ 'name', 'age' ]
+[2018-12-16T12:31:44.684] [INFO] default - ...........
+[2018-12-16T12:31:45.624] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:31:48.608] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:31:48.635] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 26ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:31:52.614] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:31:52.622] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:31:59.125] [INFO] default - redis授权成功
+[2018-12-16T12:31:59.127] [INFO] default - redis准备成功
+[2018-12-16T12:31:59.143] [INFO] default - [ 'name', 'place', 'xingbie' ]
+[2018-12-16T12:31:59.144] [INFO] default - [ 'name', 'place', 'xingbie' ]
+[2018-12-16T12:33:10.344] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:33:10.351] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:33:10.363] [INFO] default - [ 'name', 'place', 'xingbie' ]
+[2018-12-16T12:33:26.074] [INFO] default - ...........
+[2018-12-16T12:33:26.824] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:33:26.830] [INFO] default - redis授权成功
+[2018-12-16T12:33:26.832] [INFO] default - redis准备成功
+[2018-12-16T12:33:30.270] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:33:30.279] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 500 8ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:33:45.254] [INFO] default - ...........
+[2018-12-16T12:33:46.323] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:33:46.332] [INFO] default - redis授权成功
+[2018-12-16T12:33:46.334] [INFO] default - redis准备成功
+[2018-12-16T12:33:50.460] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:33:50.504] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 43ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:33:50.507] [INFO] default - redis hkeys success!hashkey:boss,value:name,place,xingbie
+[2018-12-16T12:42:32.424] [INFO] default - ...........
+[2018-12-16T12:42:33.176] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:42:33.191] [INFO] default - redis授权成功
+[2018-12-16T12:42:33.193] [INFO] default - redis准备成功
+[2018-12-16T12:43:21.374] [INFO] default - ...........
+[2018-12-16T12:43:22.113] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:43:22.122] [INFO] default - redis授权成功
+[2018-12-16T12:43:22.124] [INFO] default - redis准备成功
+[2018-12-16T12:43:26.847] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:43:26.889] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 43ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:43:26.898] [INFO] default - redis get error { ReplyError: WRONGTYPE Operation against a key holding the wrong kind of value
+    at parseError (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:193:12)
+    at parseType (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:303:14) command: 'GET', args: [ 'user' ], code: 'WRONGTYPE' }
+[2018-12-16T12:43:26.899] [INFO] default - redis hkeys success!hashkey:boss,value:name,place,xingbie
+[2018-12-16T12:44:14.249] [INFO] default - ...........
+[2018-12-16T12:44:14.992] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:44:15.003] [INFO] default - redis授权成功
+[2018-12-16T12:44:15.005] [INFO] default - redis准备成功
+[2018-12-16T12:44:17.967] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:44:17.990] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:44:17.991] [INFO] default - redis get error { ReplyError: WRONGTYPE Operation against a key holding the wrong kind of value
+    at parseError (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:193:12)
+    at parseType (D:\tjd\tcreadme\node_modules\redis-parser\lib\parser.js:303:14) command: 'GET', args: [ 'user' ], code: 'WRONGTYPE' }
+[2018-12-16T12:45:45.984] [INFO] default - ...........
+[2018-12-16T12:45:46.741] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:45:46.750] [INFO] default - redis授权成功
+[2018-12-16T12:45:46.752] [INFO] default - redis准备成功
+[2018-12-16T12:45:50.038] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:45:50.067] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 28ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:45:50.068] [INFO] default - redis set success!key:user,value:name
+[2018-12-16T12:46:01.256] [INFO] default - ...........
+[2018-12-16T12:46:02.018] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:46:02.024] [INFO] default - redis授权成功
+[2018-12-16T12:46:02.027] [INFO] default - redis准备成功
+[2018-12-16T12:46:05.205] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:46:05.233] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:46:05.234] [INFO] default - redis get by key:user,return value:name
+[2018-12-16T12:46:05.248] [INFO] default - name
+[2018-12-16T12:46:16.357] [INFO] default - ...........
+[2018-12-16T12:46:17.391] [INFO] default - redis授权成功
+[2018-12-16T12:46:17.393] [INFO] default - redis准备成功
+[2018-12-16T12:46:17.399] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:46:20.868] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:46:20.896] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:46:20.897] [INFO] default - redis get by key:user2,return value:null
+[2018-12-16T12:46:20.898] [INFO] default - null
+[2018-12-16T12:46:32.278] [INFO] default - ...........
+[2018-12-16T12:46:33.023] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:46:33.035] [INFO] default - redis授权成功
+[2018-12-16T12:46:33.037] [INFO] default - redis准备成功
+[2018-12-16T12:46:36.841] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:46:36.875] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 32ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:46:36.876] [INFO] default - redis get by key:user,return value:name
+[2018-12-16T12:46:36.877] [INFO] default - name
+[2018-12-16T12:47:00.505] [INFO] default - ...........
+[2018-12-16T12:47:01.254] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:47:01.262] [INFO] default - redis授权成功
+[2018-12-16T12:47:01.265] [INFO] default - redis准备成功
+[2018-12-16T12:47:07.149] [INFO] default - ...........
+[2018-12-16T12:47:07.865] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:47:07.875] [INFO] default - redis授权成功
+[2018-12-16T12:47:07.877] [INFO] default - redis准备成功
+[2018-12-16T12:47:11.581] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:47:11.608] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 27ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:47:12.422] [INFO] default - ...........
+[2018-12-16T12:47:13.101] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:47:13.116] [INFO] default - redis授权成功
+[2018-12-16T12:47:13.118] [INFO] default - redis准备成功
+[2018-12-16T12:47:37.247] [INFO] default - ...........
+[2018-12-16T12:47:38.082] [INFO] default - redis授权成功
+[2018-12-16T12:47:38.083] [INFO] default - redis准备成功
+[2018-12-16T12:47:38.088] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:47:43.559] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:47:43.585] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 25ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:47:43.592] [INFO] default - redis hkeys success!hashkey:user,value:0
+[2018-12-16T12:48:33.169] [INFO] default - ...........
+[2018-12-16T12:48:33.985] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:48:33.994] [INFO] default - redis授权成功
+[2018-12-16T12:48:33.996] [INFO] default - redis准备成功
+[2018-12-16T12:48:37.864] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:48:37.885] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 21ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:48:37.886] [INFO] default - redis del key:user success,value:0
+[2018-12-16T12:48:48.292] [INFO] default - ...........
+[2018-12-16T12:48:49.026] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:48:49.056] [INFO] default - redis授权成功
+[2018-12-16T12:48:49.058] [INFO] default - redis准备成功
+[2018-12-16T12:48:51.130] [INFO] default - ...........
+[2018-12-16T12:48:52.102] [INFO] default - redis授权成功
+[2018-12-16T12:48:52.107] [INFO] default - redis准备成功
+[2018-12-16T12:48:52.116] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:48:54.809] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:48:54.829] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:48:54.831] [INFO] default - redis get by key:user,return value:null
+[2018-12-16T12:48:54.832] [INFO] default - null
+[2018-12-16T12:49:12.288] [INFO] default - ...........
+[2018-12-16T12:49:13.389] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:49:13.397] [INFO] default - redis授权成功
+[2018-12-16T12:49:13.400] [INFO] default - redis准备成功
+[2018-12-16T12:49:17.964] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:49:17.983] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 19ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:49:17.984] [INFO] default - redis get by key:boss:xingbie,return value:null
+[2018-12-16T12:49:17.985] [INFO] default - null
+[2018-12-16T12:49:50.225] [INFO] default - ...........
+[2018-12-16T12:49:51.237] [INFO] default - redis授权成功
+[2018-12-16T12:49:51.239] [INFO] default - redis准备成功
+[2018-12-16T12:49:51.248] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:49:54.306] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:49:54.337] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 31ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:49:54.338] [INFO] default - redis hget success!hashkey:boss,key:undefined,value:null
+[2018-12-16T12:49:54.338] [INFO] default - null
+[2018-12-16T12:50:17.379] [INFO] default - ...........
+[2018-12-16T12:50:18.088] [INFO] default - redis授权成功
+[2018-12-16T12:50:18.090] [INFO] default - redis准备成功
+[2018-12-16T12:50:18.094] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:50:22.773] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:50:22.793] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 20ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:50:22.794] [INFO] default - redis hget success!hashkey:boss,key:undefined,value:null
+[2018-12-16T12:50:22.795] [INFO] default - null
+[2018-12-16T12:51:11.434] [INFO] default - ...........
+[2018-12-16T12:51:12.418] [INFO] default - redis授权成功
+[2018-12-16T12:51:12.419] [INFO] default - redis准备成功
+[2018-12-16T12:51:12.425] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:51:15.455] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:51:15.496] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 40ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:51:15.512] [INFO] default - redis hmset success!hashkey:boss,values:place,caizhi,xingbie,nan
+[2018-12-16T12:51:15.513] [INFO] default - redis hget success!hashkey:boss,key:undefined,value:null
+[2018-12-16T12:51:15.513] [INFO] default - null
+[2018-12-16T12:51:36.017] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:51:36.026] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 9ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:51:36.038] [INFO] default - redis hmset success!hashkey:boss,values:place,caizhi,xingbie,nan
+[2018-12-16T12:51:36.038] [INFO] default - redis hget success!hashkey:boss,key:undefined,value:null
+[2018-12-16T12:51:36.039] [INFO] default - null
+[2018-12-16T12:52:01.462] [INFO] default - ...........
+[2018-12-16T12:52:02.159] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:52:02.169] [INFO] default - redis授权成功
+[2018-12-16T12:52:02.171] [INFO] default - redis准备成功
+[2018-12-16T12:52:04.192] [INFO] default - ...........
+[2018-12-16T12:52:04.915] [INFO] default - redis授权成功
+[2018-12-16T12:52:04.917] [INFO] default - redis准备成功
+[2018-12-16T12:52:04.921] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:52:08.682] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:52:08.715] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 33ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:52:08.716] [INFO] default - redis hget success!hashkey:boss,key:xingbie,value:nan
+[2018-12-16T12:52:08.717] [INFO] default - nan
+[2018-12-16T12:55:06.358] [INFO] default - ...........
+[2018-12-16T12:55:07.072] [INFO] default - redis授权成功
+[2018-12-16T12:55:07.073] [INFO] default - redis准备成功
+[2018-12-16T12:55:07.077] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:55:43.333] [INFO] default - ...........
+[2018-12-16T12:55:44.010] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:55:44.023] [INFO] default - redis授权成功
+[2018-12-16T12:55:44.025] [INFO] default - redis准备成功
+[2018-12-16T12:55:59.622] [INFO] default - ...........
+[2018-12-16T12:56:00.299] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:56:00.314] [INFO] default - redis授权成功
+[2018-12-16T12:56:00.316] [INFO] default - redis准备成功
+[2018-12-16T12:56:32.506] [INFO] default - ...........
+[2018-12-16T12:56:33.821] [INFO] default - redis授权成功
+[2018-12-16T12:56:33.825] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:56:33.831] [INFO] default - redis准备成功
+[2018-12-16T12:56:49.869] [INFO] default - ...........
+[2018-12-16T12:56:50.677] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:56:50.692] [INFO] default - redis授权成功
+[2018-12-16T12:56:50.695] [INFO] default - redis准备成功
+[2018-12-16T12:56:54.223] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:56:54.247] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 22ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:56:55.233] [INFO] default - ...........
+[2018-12-16T12:56:55.877] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:56:55.902] [INFO] default - redis授权成功
+[2018-12-16T12:56:55.904] [INFO] default - redis准备成功
+[2018-12-16T12:57:08.184] [INFO] default - ...........
+[2018-12-16T12:57:08.788] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:57:08.798] [INFO] default - redis授权成功
+[2018-12-16T12:57:08.799] [INFO] default - redis准备成功
+[2018-12-16T12:57:16.331] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:57:16.351] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 19ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:57:49.687] [INFO] default - ...........
+[2018-12-16T12:57:50.303] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:57:50.314] [INFO] default - redis授权成功
+[2018-12-16T12:57:50.316] [INFO] default - redis准备成功
+[2018-12-16T12:57:54.186] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:57:54.219] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 33ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:57:54.220] [INFO] default - redis set success!key:test,value:nimeia
+[2018-12-16T12:57:54.220] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:07.848] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:07.872] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 23ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:07.873] [INFO] default - redis set success!key:test,value:nimeia
+[2018-12-16T12:58:07.874] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:15.230] [INFO] default - ...........
+[2018-12-16T12:58:15.848] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T12:58:15.860] [INFO] default - redis授权成功
+[2018-12-16T12:58:15.862] [INFO] default - redis准备成功
+[2018-12-16T12:58:20.510] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:20.543] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 31ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:20.544] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:27.572] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:27.587] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 15ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:27.589] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:34.672] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:34.684] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 13ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:34.689] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:36.912] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:36.917] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 5ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:36.926] [INFO] default - redis get by key:test,return value:nimeia
+[2018-12-16T12:58:42.608] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:42.619] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 11ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:42.625] [INFO] default - redis get by key:test,return value:null
+[2018-12-16T12:58:46.602] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T12:58:46.608] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T12:58:46.617] [INFO] default - redis get by key:test,return value:null
+[2018-12-16T13:04:33.255] [INFO] default - ...........
+[2018-12-16T13:04:34.143] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:04:34.153] [INFO] default - redis授权成功
+[2018-12-16T13:04:34.155] [INFO] default - redis准备成功
+[2018-12-16T13:04:37.168] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:04:37.200] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 32ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:04:37.203] [INFO] default - redis hset success!hashkey:test,key:name,value:li
+[2018-12-16T13:04:37.203] [INFO] default - redis hset success!hashkey:test,key:age,value:20
+[2018-12-16T13:04:37.204] [INFO] default - redis hget success!hashkey:test,key:undefined,value:null
+[2018-12-16T13:04:47.094] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:04:47.101] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:04:47.112] [INFO] default - redis hset success!hashkey:test,key:name,value:li
+[2018-12-16T13:04:47.113] [INFO] default - redis hset success!hashkey:test,key:age,value:20
+[2018-12-16T13:04:47.113] [INFO] default - redis hget success!hashkey:test,key:undefined,value:null
+[2018-12-16T13:04:55.375] [INFO] default - ...........
+[2018-12-16T13:04:56.479] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:04:56.487] [INFO] default - redis授权成功
+[2018-12-16T13:04:56.488] [INFO] default - redis准备成功
+[2018-12-16T13:04:58.427] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:04:58.450] [INFO] default - redis hget success!hashkey:test,key:undefined,value:null
+[2018-12-16T13:04:58.493] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 67ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:05:02.006] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:05:02.011] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:05:02.017] [INFO] default - redis hget success!hashkey:test,key:undefined,value:null
+[2018-12-16T13:05:27.216] [INFO] default - ...........
+[2018-12-16T13:05:28.032] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:05:28.041] [INFO] default - redis授权成功
+[2018-12-16T13:05:28.043] [INFO] default - redis准备成功
+[2018-12-16T13:05:31.671] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:05:31.694] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 21ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:05:31.695] [INFO] default - redis hget success!hashkey:test,key:name,value:li
+[2018-12-16T13:05:31.696] [INFO] default - redis hget success!hashkey:test,key:age,value:20
+[2018-12-16T13:05:49.043] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:05:49.051] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 7ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:05:49.059] [INFO] default - redis hget success!hashkey:test,key:name,value:null
+[2018-12-16T13:05:49.060] [INFO] default - redis hget success!hashkey:test,key:age,value:null
+[2018-12-16T13:06:08.339] [INFO] default - ...........
+[2018-12-16T13:06:09.344] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:06:09.359] [INFO] default - redis授权成功
+[2018-12-16T13:06:09.361] [INFO] default - redis准备成功
+[2018-12-16T13:06:15.409] [INFO] default - ...........
+[2018-12-16T13:06:16.455] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:06:16.465] [INFO] default - redis授权成功
+[2018-12-16T13:06:16.467] [INFO] default - redis准备成功
+[2018-12-16T13:06:19.779] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:06:19.805] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 25ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:06:19.806] [INFO] default - redis hset success!hashkey:test,key:name,value:li
+[2018-12-16T13:06:19.807] [INFO] default - redis hset success!hashkey:test,key:age,value:20
+[2018-12-16T13:06:19.807] [INFO] default - redis hget success!hashkey:test,key:name,value:li
+[2018-12-16T13:06:19.808] [INFO] default - redis hget success!hashkey:test,key:age,value:20
+[2018-12-16T13:06:27.289] [INFO] default - ...........
+[2018-12-16T13:06:28.315] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:06:28.330] [INFO] default - redis授权成功
+[2018-12-16T13:06:28.332] [INFO] default - redis准备成功
+[2018-12-16T13:06:32.154] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:06:32.173] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 18ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:06:32.175] [INFO] default - redis hget success!hashkey:test,key:name,value:li
+[2018-12-16T13:06:32.176] [INFO] default - redis hget success!hashkey:test,key:age,value:20
+[2018-12-16T13:06:53.789] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:06:53.795] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:06:53.886] [INFO] default - redis hget success!hashkey:test,key:name,value:li
+[2018-12-16T13:06:53.898] [INFO] default - redis hget success!hashkey:test,key:age,value:20
+[2018-12-16T13:07:45.187] [INFO] default - 获取用户列表的参数： {}
+[2018-12-16T13:07:45.194] [INFO] default - [127.0.0.1 GET /tcreadme/user/list 200 6ms][ HTTP/1.1 PostmanRuntime/6.1.6]
+[2018-12-16T13:07:45.202] [INFO] default - redis hget success!hashkey:test,key:name,value:li
+[2018-12-16T13:07:45.202] [INFO] default - redis hget success!hashkey:test,key:age,value:20
+[2018-12-16T13:07:52.417] [INFO] default - ...........
+[2018-12-16T13:07:53.212] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:07:53.222] [INFO] default - redis授权成功
+[2018-12-16T13:07:53.223] [INFO] default - redis准备成功
+[2018-12-16T13:09:59.548] [INFO] default - ...........
+[2018-12-16T13:10:00.792] [INFO] default - redis授权成功
+[2018-12-16T13:10:00.794] [INFO] default - redis准备成功
+[2018-12-16T13:10:00.802] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-12-16T13:10:15.297] [INFO] default - tcreadme后台服务成功启动，访问地址为 http://0.0.0.0:8081
