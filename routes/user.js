@@ -81,7 +81,7 @@ router.post('/login', function (req, res) {
     
         return UserDao.find(whereObj).then(data=>{
             if(data && data.length>0){
-                res.send(Response.success(data));
+                res.send(Response.success(data[0]));
             
             }else{
                 return Promise.reject("密码不正确！")
