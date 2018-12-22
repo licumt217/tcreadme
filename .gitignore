@@ -1,3 +1,4 @@
 /node_modules
 /tcreadme
 .idea/*
+/logs
