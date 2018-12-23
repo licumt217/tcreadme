@@ -19,6 +19,7 @@ var ResourceSchema = new Schema({
     state: {type: Number, required:true,default:0} ,     //状态，默认0，启用；1：禁用；
     code:{type: String,required:true,unique:true},
     parentCode:{type: String,required:true,default:"0000"},
+    icon:{type: String,default:"ios-keypad"},//菜单资源图标
 });
 
 module.exports = mongoose.model('Resource', ResourceSchema);
