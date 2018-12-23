@@ -132,38 +132,54 @@ router.post('/getResourcesByUserId', function (req, res) {
     
     logger.info("根据用户id获取对应的资源列表参数：",req.body)
     
-    UserRoleRelationDao.find({
-        userId:req.body.userId
+    //首先判断当前用户是否是超管，是的话返回所有资源
+    UserDao.find({
+        _id:req.body.userId
     }).then(data=>{
-        
-        let roleIdArray=[];
-        data.forEach(item=>{
-            roleIdArray.push(item.roleId)
-        })
-        
-        return RoleResourceRelationDao.find({
-            roleId:{$in:roleIdArray}
-        }).then(data=>{
-            let resourceIdArray=[];
-            data.forEach(item=>{
-                resourceIdArray.push(item.resourceId)
+        let isAdmin=data[0].isAdmin;
+        if(isAdmin){
+            return ResourceDao.findWithLevel().then(data=>{
+                res.send(Response.success(data))
             })
-            
-            return Promise.resolve(resourceIdArray)
-            
-        })
+        }else{
+            return UserRoleRelationDao.find({
+                userId:req.body.userId
+            }).then(data=>{
         
-    }).then((resourceIdArray)=>{
-    
-        return ResourceDao.findWithLevel({
-            _id:{$in:resourceIdArray}
-        }).then(data=>{
-            res.send(Response.success(data))
-        })
+                let roleIdArray=[];
+                data.forEach(item=>{
+                    roleIdArray.push(item.roleId)
+                })
+        
+                return RoleResourceRelationDao.find({
+                    roleId:{$in:roleIdArray}
+                }).then(data=>{
+                    let resourceIdArray=[];
+                    data.forEach(item=>{
+                        resourceIdArray.push(item.resourceId)
+                    })
+            
+                    return Promise.resolve(resourceIdArray)
+            
+                })
+        
+            }).then((resourceIdArray)=>{
+        
+                return ResourceDao.findWithLevel({
+                    _id:{$in:resourceIdArray}
+                }).then(data=>{
+                    res.send(Response.success(data))
+                })
+            })
+        }
+        
+        
     }).catch(err=>{
         logger.info(err)
         res.send(Response.businessException(err))
     })
+    
+    
     
     
     

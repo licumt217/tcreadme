@@ -10,7 +10,8 @@ var UserSchema = new Schema({
     username: {type: String, unique: true},                    //用户账号
     password: {type: String, required: true},                       //密码
     department: {type: String, required:true},
-    registerDate: {type: Date, default:dateutils.plusHours(new Date(),8)}
+    registerDate: {type: Date, default:dateutils.plusHours(new Date(),8)},
+    isAdmin: {type: Boolean, default:false}
 });
 
 module.exports = mongoose.model('User', UserSchema);
