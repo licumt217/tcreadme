@@ -55,16 +55,33 @@ router.post('/remove', function (req, res) {
     
     let id=req.body.id
     
-    //只有此资源没有被角色关联才可以删除
+    //只有此资源没有被角色关联才可以删除，同时此资源必须没有下级才能删除
     
     RoleResourceRelationDao.find({
         resourceId:id
     }).then(data=>{
         if(data && data.length>0){
-            return Promise.reject("此资源已被角色授权，请先接触关系")
+            return Promise.reject("此资源已被角色授权，请先解除关系")
         }else{
-            return ResourceDao.remove(id)
+            return Promise.resolve();
+            
         }
+    }).then(data=>{
+        ResourceDao.find({
+            _id:id
+        }).then(data=>{
+            return Promise.resolve(data)
+        })
+    }).then(data=>{
+        ResourceDao.find({
+            parentCode:data.code
+        }).then(data=>{
+            if(data && data.length>0){
+                return Promise.reject("请先删除此资源的下级资源")
+            }else{
+                return ResourceDao.remove(id)
+            }
+        })
     }).then(()=>{
         res.send(Response.success());
     }).catch(err=>{
