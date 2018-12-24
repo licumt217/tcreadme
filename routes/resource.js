@@ -53,7 +53,7 @@ router.post('/remove', function (req, res) {
     
     logger.info(`删除${entityName}参数：`,req.body)
     
-    let id=req.body._id
+    let id=req.body.id
     
     //只有此资源没有被角色关联才可以删除
     
