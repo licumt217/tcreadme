@@ -6,6 +6,7 @@ const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
 let Resource=require('../dao/model/resource')
 let ResourceDao=require('../dao/dao/ResourceDao')
+let RoleResourceRelationDao=require('../dao/dao/RoleResourceRelationDao')
 const entityName='资源'
 
 
@@ -54,9 +55,25 @@ router.post('/remove', function (req, res) {
     
     let id=req.body._id
     
-    ResourceDao.remove(id).then(data=>{
+    //只有此资源没有被角色关联才可以删除
+    
+    RoleResourceRelationDao.find({
+        resourceId:id
+    }).then(data=>{
+        if(data && data.length>0){
+            return Promise.reject("此资源已被角色授权，请先接触关系")
+        }else{
+            return ResourceDao.remove(id)
+        }
+    }).then(()=>{
         res.send(Response.success());
     }).catch(err=>{
+        logger.info(err)
+        err=typeof err==='object'?"删除资源异常":err
+        res.send(Response.businessException(err));
+    })
+    
+    .catch(err=>{
         logger.info(err)
         err=typeof err==='object'?"删除资源异常":err
         res.send(Response.businessException(err));
