@@ -124,6 +124,20 @@ router.post('/listByLevel', function (req, res) {
         res.send(Response.businessException(err))
     })
 })
+router.post('/getParentResources', function (req, res) {
+    
+    logger.info(`getParentResources${entityName}参数：`,req.body)
+    
+    ResourceDao.find({
+        parentCode:'0000'
+    }).then(data=>{
+        
+        res.send(Response.success(data))
+    }).catch(err=>{
+        logger.info(err)
+        res.send(Response.businessException(err))
+    })
+})
 
 
 
