@@ -47,7 +47,7 @@ let ResourceDao={
             if(!whereObj){
                 whereObj={}
             }
-            Resource.find(whereObj).then(data=>{
+            Resource.find(whereObj).sort({'sequence':1}).exec().then(data=>{
                 //此句不可少，将mongoose对象转为纯js对象，否则添加属性添加不上
                 data=JSON.parse(JSON.stringify(data))
                 
