@@ -20,6 +20,7 @@ var ResourceSchema = new Schema({
     code:{type: String,required:true,unique:true},
     parentCode:{type: String,required:true,default:"0000"},
     icon:{type: String,default:"ios-keypad"},//菜单资源图标
+    sequence:{type: Number,default:99},//菜单资源顺序号
 });
 
 module.exports = mongoose.model('Resource', ResourceSchema);
