@@ -5,6 +5,7 @@ const logger = log4js.getLogger() // 根据需要获取logger
 const errlogger = log4js.getLogger('err')
 const Response=require('../config/response')
 let RoleDao=require('../dao/dao/RoleDao')
+let Role=require('../dao/model/role')
 
 
 // 新增

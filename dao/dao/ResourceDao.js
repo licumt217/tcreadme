@@ -31,7 +31,7 @@ let ResourceDao={
             if(!whereObj){
                 whereObj={}
             }
-            Resource.find(whereObj).then(data=>{
+            Resource.find(whereObj).sort({'sequence':1}).then(data=>{
                 resolve(data)
             }).catch(err=>{
                 errorMsg=`根据条件查询${entityName}异常！`
