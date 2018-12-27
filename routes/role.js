@@ -66,7 +66,7 @@ router.post('/update', function (req, res) {
     logger.info("修改角色信息参数：",req.body)
     
     let whereObj={
-        name:req.body.originalName,
+        name:req.body.id,
     };
     
     RoleDao.find(whereObj).then(data=>{
